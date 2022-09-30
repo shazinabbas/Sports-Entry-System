@@ -2194,63 +2194,18 @@ break;
 }
 }
 
-void user: :admin_menu()
-
-start:
-system("cls");
-Sleep(50);
-
-cout << "\n\t\t ——
--Sacsameen ee |"; Sleep(50);
-
-cout << "\n\t\t | BY CLASS
-12 (COMPUTER SCIENCE) |"; Sleep(50);
-
-cout << "\n\t\t | -----------
-none nnn nnnn- ---------|"; Sleep(50);
-
-cout <<
-YVAN VEN ENE CEE eee ERE RE RETR ER ERIN EERE R ERE T ERNE EE REESE RS
-
-RRERAARERREEREARARERERE EY Yl Sleep(10);
-cout << MNEACA CA CA CER Aa ERR ERR EER RRR ADMIN MENU
-RAREAEAEERARRRARARAEREY ls Sleep(10) ;
-
-cout << NCA CVC tte ee ee ea a a ea Hee
-HAKHHRHERERREREREERERE "* STeQN(10);
-
-cout << "\Nt\e\e\t\ teste eeeee ere eee ae es 1. DISPLAY THE DETAILS
-HAKKERARERREREREREEEERY "> S]eQN(10) 5
-cout << "\t\t\t\t\teeteeererrad ea keke
-RRRHRRRERE REA REREREREN |". STeep(10);
-
-cout << PVC Ct) te ee a eee de 2. MODIFY BY CHEST NO.
-Wate tek teste eee eee 1" STeep(10) ;
-
-Cout << "\t\t\t\ tte eee ee a ea ade as ia ies
-Iddddedndondeiccicie| 9s Seep (10) ;
-
-cout << AW aS AWA Slalatahaltataebaielalhalebaialalalelell 3. DELETE
-HARRAH RR I RY Sleep(10) ;
-cout << VCC tte eee
-Sete dete de ded ie de ede ae aed ee see ae ae ee yt Sleep(10) ;
-Cout << M\t\t\t\t\ tee ee eae 4. GO BACK TO MAIN MENU
-
-Sedetee dead de deed dei ae eee iT Sleep(10) ;
-
-cout << ELEC t ee eee ee ee
-Sede do edie ea ea Hem RH Sleep(10) ;
-
-cout << PVC CV CVC Ctra ee ee RS 5. ClOSE APPLICATION
-ERARARAR EERIE AR EAE RE Te Sleep(10) ;
-cout <<
-
-* LORIE EEE EEREE
-NAC AC ANA silatatatahatalatatetetetelalalalalataahehatelelelelalalalalalalele *
-
-were y\n\t\t\t\t\t"; sleep(10) ;
-cout << "ENTER YOUR CHOICE (1-5):- "; Sleep(10);
-cin >> choice;
+void user::admin_menu()
+{
+	start:
+	system("cls");
+	cout<<:"ADMIN MENU\n";
+	cout<<"\n 1. DISPLAY THE DETAILS\n";
+	cout<<"\n 2. MODIFY BY CHEST NUMBER\n";
+	cout<<"\n 3. DELETE\n";
+	cout<<"\n 4. GO BACK TO MAIN MENU\n";
+	cout<<"\n 5. CLOSE APPLICATION\n";
+	cout << "\n ENTER YOUR CHOICE (1-5):- "; Sleep(10);
+	cin >> choice;
 
 switch (choice)
 
@@ -2367,19 +2322,7 @@ void welcome()
     * * | " << endl; Sleep(10);
     cout << "\t\t | * 7
     * * | " << endl; Sleep(10);
-    cout << "\t\t | * >
-    * * | " << endl; Sleep(10);
-    cout << "\t\t | * *
-    * * | " << endl; Sleep(10);
-    cout << "\t\t | * *
-    * * | " << endl; Sleep(10);
-    cout << "\t\t | * eR eR *
-    * woke ee | " << endl; Sleep(10);
     
-    cout << "\t\t |
-    | " << endl; Sleep(10);
-    cout << "\t\t |----------------- SPORTS~ == n= oor om n nm
-    MANAGEMENT--------------------- SYSTEM--=--=~---------- | "<< endl;
     Sleep(3000);
 }
 int main
