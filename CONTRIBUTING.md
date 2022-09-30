@@ -1,1 +1,3 @@
-
+- Please add your name in the Contributors.md file after succesfully completing your PR/MR.
+- Don't try to spam.
+- All types of contributions are accepted.
