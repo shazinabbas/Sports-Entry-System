@@ -2389,96 +2389,49 @@ break;
 }
 
 z
+void user::homepage()
+{
+	int choice;
+	system("CLS");
+	Sleep(50);
+	cout<< "\n\n\n\n\n\n\t\t\t\t\tCHOOSE ANY OPTION TO LOGIN(1 - 3) >>>>>>>>>>>>>>>>>>>>>>\n " ; Sleep(10) ; 
+	cout << "\t\t\t\t\t 1. USER \n "; STeep(10) ;
+	cout << "\t\t\t\t\t 2. ADMIN \n "; STeep(10);
+	cout << "\t\t\t\t\t 3. EXIT \n "s Sleep(10);
+	cout << "\nENTER YOUR CHOICE(1 - 3) : - ";
+	cin >> choice;
+	switch (choice)
+	{
+		case 1:
+			u.password(1);
+			break;
 
-    void user: :homepage()
-    int choice;
-    system("CLS");
-    Sleep(50);
-    cout << "\n\t\t";
-    morn r enn ee nnn nrn naan |"; Sleep(50);
-    cout << "\n\t\t | BY CLASS
-    (COMPUTER SCIENCE) |"; Sleep(50); 0
-    cout << "\n\t\t |-----7
-    wenn n-ne nner |"; Sleep(50);
-    cout << "\n\n\n\n\n\n\t\t\t\t\t<<<<<<ccc<<<ccc<<<<<<<CHOOSE
-    LOGIN (1-3)>>>>>>>>>>>>>>>>>>>>>>\N" 5 Sleep(10) ; ,
-    cout << WV E\ EAE E\ <<< <<<<<< <<< <<< << << <<<>>>>>>>>> 2222222277 277 \n";
+		case 2:
+			u.password(2);
+			break;
 
-    Sleep(10) ;
-    cout << "\t\t\t\t\t<<<<<<<<<<<<<<<<<<<<<< 1. USER
+		case 3:
+			u.close_app();
+			break;
 
-    >>>>>>>>>>>>>>>>>>>>>> \n"; STeep(10) ;
-    cout << "\t\t\t\t\t<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>> \n";
+		default:
+			cout << "INVALID SELECTION! !!";
+			cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
+			cout << "\n>> 1. RETRY";
+			cout << "\n>> 2. CLOSE APPLICATION\n";
+			cin >> choice;
+			if (choice == 1)
+			{
+				u.homepage();
+			}
+			else
+			{
+				exit(1);
+			}
+			break;
+}
 
-    ANY OPTION TO
-
-    Sleep(10) ;
-
-    cout << "\t\t\t\t\t<<<<<<<<<<<ceceecx<<<<<<>>>>>>>>>>>>>>>>>>> >>> \n";
-    Sleep(10);
-
-    cout << "\t\t\t\t\t<<<<<<<<<<<<<<<<<<<<<< 2. ADMIN
-
-    >>>>>>>>>>>>>>>>>>>>>> \n"; STeep(10);
-    WwW,
-    cout << "\t\t\t\t\t<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>2>> 22> \n";
-
-    Sleep(10);
-
-    cout << "\t\t\t\t\t<<<<<<<<<<<<e<ee<<<<<<>>>>>>>>>>>>>2 22222277 \n";
-    Sleep(10) ;
-
-    cout << "\t\t\t\t\t<<<<<<<<<<<<<<<<<<<<<< 3. EXIT
-    >>>>>>>>>>>>>>>>>>>>>> \n"s Sleep(10);
-
-    cout <<********************************************************* \n"; Sleep (10);
-    cout << "\n
-    CHOICE (1-3) :- "3
-    cin >> choice;
-    switch (choice)
-    {
-    case 1:
-    u.password(1) ;
-    break;
-
-    case 2:
-    u.password(2);
-    break;
-
-    case 3:
-    u.close_appQ;
-    break;
-
-    default:
-
-    cout << "INVALID SELECTION! !!";
-
-    cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-    cout << "\n>> 1. RETRY";
-
-    cout << "\n>> 2. CLOSE APPLICATION\n";
-
-    cin >> choice;
-
-    if (choice == 1)
-
-    {
-
-    }
-
-    else
-
-    u. homepage () ;
-     {
-    }
-
-    break;
-
-    exit(1);
-
-    }
-
-void welcome ()
+void welcome()
 {
     Sleep(50) ;
     cout << "\n\t\t | ----------- |"; 
