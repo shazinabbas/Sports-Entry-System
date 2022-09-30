@@ -2586,7 +2586,7 @@ int mainO
 welcome();
 
 u. homepage ();
-cout<<"My name is Niteesh";
+cout<<"My name is Shazin";
 
 //u.class_displayQ;
 }
