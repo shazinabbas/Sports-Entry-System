@@ -535,9 +535,7 @@ void user::class_display()
             default:
             cout << "INVALID";
             break;
-             oVWuVvvwvevwevwevvwer7FeuvwFrTlTtlhlh
-
-            . if (array(i][8] == "2001" || array[i][8] == "2002")
+            if (array(i][8] == "2001" || array[i][8] == "2002")
 
             ofstream outfile;
 
@@ -577,7 +575,7 @@ void user::class_display()
 
             {
 
-            if G =)
+            if (i==1)
             {
             cout << "\n Ist ENTRY:- ";
             cin >> choice;
@@ -588,16 +586,14 @@ void user::class_display()
             cout << "\n 2nd ENTRY:- ";
             cin >> choice;
 
-            } 3
+            }
             else if (i == 3)
 
             : cout << "\n 3rd ENTRY:- "3
             cin >> choice;
 
             }
-
             else
-
             {
 
             cout << "\n 4th Entry:- 5
@@ -629,136 +625,64 @@ void user::class_display()
             outfile.open("m19_400.csv", jos_base::app);
 
             outfile << chest_no << "," << "\n";
-            outfile.closeQ;
+            outfile.close();
             break;
             case 4:
             outfile.open("m19_400.csv", jos_base::app);
 
             outfile << chest_no << "," << "\n";
-            outfile.closeQ;
+            outfile.close();
             break;
             case 5:
             outfile.open("m19_800.csv", jos_base::app);
 
             outfile << chest_no << "," << "\n";
-            outfile.closeQ;
+            outfile.close();
             break;
             case 6:
             outfile.open("m19_1500.csv", jos_base::app);
 
             outfile << chest_no << "," << "\n";
-            outfile.closeQ;
+            outfile.close();
             break;
             case 7:
-            outfile.
+            outfile.open("m19_longjump.csv", jos_base::app);
 
-            outfile
-            outfile.
+            outfile << chest_no << "," << "\n";
+            outfile.close();
             break;
             case 8:
-            outfile.
+            outfile.open("m19_highjump.csv", jos_base::app);
 
-            outfile
-            outfile.
+            outfile << chest_no << "," << "\n";
+            outfile.close();
             break;
             case 9:
-            outfile.
+            outfile.open("m19_shotput.csv", jos_base::app);
 
-            outfile
-            outfile.
+            outfile << chest_no << "," << "\n";
+            outfile.close();
             break;
             case 10:
-            outfile.
+            outfile.open("m19_discuss.csv", jos_base::app);
 
-            outfile
-            outfile.
+            outfile << chest_no << "," << "\n";
+            outfile.close();
             break;
             case 11:
-            outfile.close()
+            outfile.open("m19_javelin.csv", jos_base::app);
+
+            outfile << chest_no << "," << "\n";
+            outfile.close();
             break;
             default :
-            cout <<
+            cout <<"INVALID";
             break;
-
-            open("m_19_400.csv'
-
-            << chest_no <<
-            close();
-
-            open(""m_19_800.csv'
-
-            << chest_no << ",
-close(Q);
-
-open(""m_19_800walk.
-
-<< chest_no << ","
-close();
-
-"| jos_base: : app);
-
-<< "\n" :
-
-' jos_base:: app);
-
-<< "\n" ;
-
-csv",
-
-<< "\n"s
-
-open("m_19_1500.csv", ios_base: :app);
-
-<< chest_no << ",
-close();
-
-<< "\n" :
-
-open("m_19_longjump.csv",
-
-mot
-
-<< chest_no << ",
-
-closeQ);
-
-<< "“\n" :
-
-open("m_19_highjump.csv",
-
-<< chest_no << ",
-closeQ);
-
-open("m_19_shotput.
-
-<< chest_no << ","
-close();
-
-open("m_19_discuss.
-
-<< chest_no << ","
-close();
-
-open("m_19_javelin.
-
-<< chest_no << ","
-close();
-
-"INVALID";
-
-<< "\n's
-csv",
-<< "\n":
-csv",
-<< "\n":
-csv",
-<< “"\n"?:
-}
-
+          }
+     }
+}
 else
-
 {
-
 cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
@@ -767,7 +691,6 @@ WITH THE ADMINS\nTO CONTINUE FURTHER\n":
 
 system("pause");
 Sleep(1000);
-
 }
 
 else if (array[i][5] == "Female")
@@ -778,51 +701,28 @@ if (array[i]([8] == "2008" || array[i][8] == "2009" ||
 array[i][8] == "2010")
 {
 
-ofstream outfile;
+    ofstream outfile;
 
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-MISATKES (0-4)";
+    cout<<"\n\nYOUR UNDER_12 ITEMS ARE GIVEN BELOW:- \n";
+    cout<<"\n I>> 100 Mtr RACE";
 
-cout
+    cout<<"\n 2>> 200 Mtr RACE";
 
-<<
-<<
-<<
-<<
-<<
-<<
-<<
+    cout<<"\n 3>> 400 Mtr RACE";
 
-<<
+    cout<<"\n 4>> LONG JUMP";
 
-"\n\nYOUR UNDER_12 ITEMS ARE GIVEN BELOW:- \n";
-"\n I>> 100 Mtr RACE";
+    cout<<"\n O>> NO EVENT";
 
-"\n 2>> 200 Mtr RACE":;
+    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
 
-"\n 3>> 400 Mtr RACE";
+    cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
 
-"\n 4>> LONG JUMP";
-
-"\n O>> NO EVENT";
-
-"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
-
-"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
-
-MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
-for Cint i = 1; i <= 4; i++)
+    cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!!\n";
+for int i = 1; i <= 4; i++)
 
 {
-
-if G == 1)
-
+if i == 1)
 {
 
 cout << "\n lst ENTRY:- ";
@@ -844,9 +744,7 @@ cout << "\n 3rd ENTRY:- "3
 cin >> choice;
 
 }
-
 else
-
 {
 
 cout << "\n 4th Entry:- "
@@ -865,12 +763,6 @@ case 1:
 
 outfile.open("f_12_100.csv", ios_base::app);
 outfile << chest_no << "," << "\n";
-
-,
-jos_base::app);
-
-}
-
 outfile.close();
 break;
 
