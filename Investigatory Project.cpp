@@ -2486,71 +2486,66 @@ exit(1);
 }
 
 void welcome ()
-
-Sleep(50) ;
-
-cout << "\n\t\t | -----------
-een eran mr |"; Sleep(50);
-
-cout << "\n\t\t | BY CLASS
-12 (COMPUTER SCIENCE) |"; Sleep(50);
-
-cout << "\n\t\t |-----------
-nn eh NN A |"; Sleep(50);
-
-cout << "\n\n\n\n\n\n\n" << end]; Sleep(10);
-
-cout << "\t\t | --------------------------------------------
-
-wort rn nnn nn nanan nnn nnn n nnn nnn nnn nnenananan- "<< endl;
-Sleep(10) ;
-cout << "\t\t |
-| " << endl; Sleep(10);
-cout << "\t\t | ee koe RK
-me +e ee Pe | " << endl; Sleep(10);
-cout << "\t\t | * *
-ie * 7 | " << endl; Sleep(10);
-cout << "\t\t | * *
-* * * * J "<< endl;
-Sleep(10) ;
-cout << "\t\t | * *
-* * * * | " << endl;
-Sleep(10) ; .
-cout << "\t\t | *
-- * * | " << endl; Sleep(10);
-cout << "\t\t | ae .
-koe \ * * | " << endl; Sleep(10);
-cout << "\t\t | * .
-* * | " << endl; Sleep(10);
-cout << "\t\t | ek kK RK *
-* keke eee | " << endl; Sleep(10);
-cout << "\t\t | * *
-x * | " << endl; Sleep(10);
-cout << "\t\t | * *
-* * | " << endl; Sleep(10);
-cout << "\t\t | * 7
-* * | " << endl; Sleep(10);
-cout << "\t\t | * >
-* * | " << endl; Sleep(10);
-cout << "\t\t | * *
-* * | " << endl; Sleep(10);
-cout << "\t\t | * *
-* * | " << endl; Sleep(10);
-cout << "\t\t | * eR eR *
-* woke ee | " << endl; Sleep(10);
-
-cout << "\t\t |
-| " << endl; Sleep(10);
-cout << "\t\t |----------------- SPORTS~ == n= oor om n nm
-MANAGEMENT--------------------- SYSTEM--=--=~---------- | "<< endl;
-Sleep(3000);
-
-int mainO
-
-welcome();
-
-u. homepage ();
-cout<<"My name is kishing";
-
-//u.class_displayQ;
+{
+    Sleep(50) ;
+    cout << "\n\t\t | ----------- |"; 
+    Sleep(50);
+    
+    cout << "\n\t\t | BY CLASS
+    12 (COMPUTER SCIENCE) |"; Sleep(50);
+    
+    cout << "\n\t\t |-----------
+    nn eh NN A |"; Sleep(50);
+    
+    cout << "\n\n\n\n\n\n\n" << end]; Sleep(10);
+    
+    cout << "\t\t | --------------------------------------------
+    
+    wort rn nnn nn nanan nnn nnn n nnn nnn nnn nnenananan- "<< endl;
+    Sleep(10) ;
+    cout << "\t\t |
+    | " << endl; Sleep(10);
+    cout << "\t\t | ee koe RK
+    me +e ee Pe | " << endl; Sleep(10);
+    cout << "\t\t | * *
+    ie * 7 | " << endl; Sleep(10);
+    cout << "\t\t | * *
+    * * * * J "<< endl;
+    Sleep(10) ;
+    cout << "\t\t | * *
+    * * * * | " << endl;
+    Sleep(10) ; .
+    cout << "\t\t | *
+    - * * | " << endl; Sleep(10);
+    cout << "\t\t | ae .
+    koe \ * * | " << endl; Sleep(10);
+    cout << "\t\t | * .
+    * * | " << endl; Sleep(10);
+    cout << "\t\t | ek kK RK *
+    * keke eee | " << endl; Sleep(10);
+    cout << "\t\t | * *
+    x * | " << endl; Sleep(10);
+    cout << "\t\t | * *
+    * * | " << endl; Sleep(10);
+    cout << "\t\t | * 7
+    * * | " << endl; Sleep(10);
+    cout << "\t\t | * >
+    * * | " << endl; Sleep(10);
+    cout << "\t\t | * *
+    * * | " << endl; Sleep(10);
+    cout << "\t\t | * *
+    * * | " << endl; Sleep(10);
+    cout << "\t\t | * eR eR *
+    * woke ee | " << endl; Sleep(10);
+    
+    cout << "\t\t |
+    | " << endl; Sleep(10);
+    cout << "\t\t |----------------- SPORTS~ == n= oor om n nm
+    MANAGEMENT--------------------- SYSTEM--=--=~---------- | "<< endl;
+    Sleep(3000);
+}
+int main
+{            
+    welcome();
+    u.homepage ();
 }
