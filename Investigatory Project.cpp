@@ -2197,51 +2197,52 @@ break;
 void user::admin_menu()
 {
 	start:
-	system("cls");
-	cout<<:"ADMIN MENU\n";
-	cout<<"\n 1. DISPLAY THE DETAILS\n";
-	cout<<"\n 2. MODIFY BY CHEST NUMBER\n";
-	cout<<"\n 3. DELETE\n";
-	cout<<"\n 4. GO BACK TO MAIN MENU\n";
-	cout<<"\n 5. CLOSE APPLICATION\n";
-	cout << "\n ENTER YOUR CHOICE (1-5):- "; Sleep(10);
-	cin >> choice;
+        system("cls");
+        cout<<:"ADMIN MENU\n";
+        cout<<"\n 1. DISPLAY THE DETAILS\n";
+        cout<<"\n 2. MODIFY BY CHEST NUMBER\n";
+        cout<<"\n 3. DELETE\n";
+        cout<<"\n 4. GO BACK TO MAIN MENU\n";
+        cout<<"\n 5. CLOSE APPLICATION\n";
+        cout << "\n ENTER YOUR CHOICE (1-5):- "; Sleep(10);
+        cin >> choice;
 
-switch (choice)
-
-{
-case 1:
-u.displayQ;
-break;
-case 4:
-u. homepage () ;
-break;
-case 5:
-u.close_app();
-break;
-default:
-cout << "INVALID CHOICE!!!";
-cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-cout << "\n>> 1. RETRY";
-cout << "\n>> 2. CLOSE APPLICATION\n";
-cin >> choice;
-if (choice == 1)
-{
-goto start;
-} ‘
-else
-exit(0);
+        switch (choice)
+        {
+            case 1:
+                u.display();
+                break;
+            case 4:
+                u.homepage();
+                break;
+            case 5:
+                u.close_app();
+                break;
+            default:
+                cout << "INVALID CHOICE!!!";
+                cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
+                cout << "\n>> 1. RETRY";
+                cout << "\n>> 2. CLOSE APPLICATION\n";
+                cin >> choice;
+                if (choice == 1)
+                {
+                    goto start;
+                } 
+                else
+                {
+                    exit(0);
+                }
+                break;
+        }
+    
 }
-break;
-}
 
-z
 void user::homepage()
 {
 	int choice;
 	system("CLS");
 	Sleep(50);
-	cout<< "\n\n\n\n\n\n\t\t\t\t\tCHOOSE ANY OPTION TO LOGIN(1 - 3) >>>>>>>>>>>>>>>>>>>>>>\n " ; Sleep(10) ; 
+	cout<< "\n\n\n\n\n\n\t\t\t\t\tCHOOSE ANY OPTION TO LOGIN(1 - 3) \n " ; Sleep(10) ; 
 	cout << "\t\t\t\t\t 1. USER \n "; STeep(10) ;
 	cout << "\t\t\t\t\t 2. ADMIN \n "; STeep(10);
 	cout << "\t\t\t\t\t 3. EXIT \n "s Sleep(10);
@@ -2276,6 +2277,7 @@ void user::homepage()
 				exit(1);
 			}
 			break;
+    }
 }
 
 void welcome()
