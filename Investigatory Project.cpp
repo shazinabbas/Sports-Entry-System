@@ -1523,703 +1523,318 @@ cout << "\n";
 }
 u.display_class_wise(div_choice) ;
 Sleep(200) ;
-
-void user: :stu_events(string chest_no)
-
-string m_12[] = {
-
-"m_12_100.csv","m_12_200.csv", "m_12_400.csv","m_12_longjump.csv", "m_12_highj
-ump.csv" };
-
-string f_12[] = {
-"F_12_100.csv","f_12_200.csv","f_12_400.csv","f_12_longjump.csv" };
-
-string m_14[] = {
-
-"m_14_100. csv", "m_14_200.csv","m_14_400.csv", "m_14_800.csv", "m_14_longjump.c
-sv","m_14_highjump.csv", };
-string f_14[] = {
-
-"F_14 100.csv","f_14_200.csv","f_14_400.csv", "f_14_800.csv", "f_14_longjump.c
-sv", "f_14_highjump.csv", };
-. string m_16[] = {
-m_16_100. csv", "m_16_200. csv", "m_16_400.csv","m_16_800.csv", "m_16_1500.csv",
-m_16_longjump.csv","m_16_highjump.csv","m_16_shotput.csv", "m_16_discuss.csv
-
-string f_16[] = {
-"f_16_100.csv","f_16_200.csv", "f_16_400. csv", "f_16_800.csv", "f_16_800walk.cs
-v","f_16_1500.csv", "f_16_longjump.csv","f_16_highjump.csv", “f_16_shotput.csv
-","f_16_discuss.csv" };
-
-string m_19[] = {
-"m_19_100.csv", "m_19_200.csv", "m_19_400.csv", "m_19_800.csv", "m_19_800walk.cs
-v","m_19_1500.csv", "m_19_longjump.csv","m_19_highjump.csv", "m_19_shotput.csv
-"\"m_19_discuss.csv","m_19_javelin.csv" };
-
-string f_19[] = {
-"f_19_100. csv", "f_19_200.csv", "f_19_400. csv", "f_19_800.csv", "f_19_800walk.cs
-v","£_19_1500. csv", "f_19_longjump.csv","f_19_highjump.csv","f_19_shotput.csv
-","f_19_discuss.csv","f_19_javelin.csv" };
-
-{ "100 mtr","200 Mtr","400 Mtr", "LONGJUMP", "HIGHJUMP" };
-
-string e_m_12[] =
-}] = { "100 mtr","200 Mtr","400 mtr", "LONGJUMP" };
-
-string e_f_12[
-
-string e_m_14[] = { "100 mMtr","200 Mtr","400 Mtr", "800
-Mtr", "LONGJUMP", "HIGHJUMP", }
-
-string e_f_14[] = { "100 mtr","200 Mtr","400 mtr", "800
-Mtr", "LONGJUMP", "HIGHJUMP" , ye
-
-string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500
-Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS" };
-
-string e_f_16[] = { "100 Mtr","200 mtr","400 Mtr","800 mMtr","800 Mtr
-WALK", "1500 Mtr", ""LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS" };
-
-string e_m_19[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 Mtr
-WALK", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS", "JAVELIN" };
-string e_f_19[] = { "100 mtr","200 Mtr","400 Mtr","800 Mtr", "800 Mtr
-WALK", "1500 mtr", "LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS", "JAVELIN" };
-
-string flag[50];
-int n = 0;
-
-for (int i = 0; i < 11; i++)
-
-{
-ifstream myfile;
-string ch;
-myfile.open(m_19[7]);
-while (myfile.goodQ)
+"
+void user::stu_events(string chest_no)
 {
 
-getline(myfile, ch, ',');
-if (chest_no == ch)
+    string m_12[] = {"m_12_100.csv","m_12_200.csv", "m_12_400.csv","m_12_longjump.csv", "m_12_highjump.csv" };
+    string f_12[] = {"f_12_100.csv","f_12_200.csv","f_12_400.csv","f_12_longjump.csv" };
+    string m_14[] = {"m_14_100. csv", "m_14_200.csv","m_14_400.csv", "m_14_800.csv", "m_14_longjump.csv","m_14_highjump.csv", };
+    string f_14[] = {"f_14 100.csv","f_14_200.csv","f_14_400.csv", "f_14_800.csv", "f_14_longjump.csv", "f_14_highjump.csv", };
+    string m_16[] = {"m_16_100. csv", "m_16_200. csv", "m_16_400.csv","m_16_800.csv", "m_16_1500.csv","m_16_longjump.csv","m_16_highjump.csv","m_16_shotput.csv", "m_16_discuss.csv"};
+    string f_16[] = {
+    "f_16_100.csv","f_16_200.csv", "f_16_400. csv", "f_16_800.csv", "f_16_800walk.cs
+    v","f_16_1500.csv", "f_16_longjump.csv","f_16_highjump.csv", “f_16_shotput.csv
+    ","f_16_discuss.csv" };
 
-flag[n] = e_m_19[i];
-n+}
-}
-: myfile.close();
+    string m_19[] = {
+    "m_19_100.csv", "m_19_200.csv", "m_19_400.csv", "m_19_800.csv", "m_19_800walk.cs
+    v","m_19_1500.csv", "m_19_longjump.csv","m_19_highjump.csv", "m_19_shotput.csv
+    "\"m_19_discuss.csv","m_19_javelin.csv" };
 
-o (int 7 = 0; 1 < 11; i++)
-ifstream myfile;
-string ch;
-myfile.open(f_19[i]);
-while (myfile.good())
-i
+    string f_19[] = {
+    "f_19_100. csv", "f_19_200.csv", "f_19_400. csv", "f_19_800.csv", "f_19_800walk.cs
+    v","£_19_1500. csv", "f_19_longjump.csv","f_19_highjump.csv","f_19_shotput.csv
+    ","f_19_discuss.csv","f_19_javelin.csv" };
 
-getline(myfile, ch, ',');
-if (chest_no == ch)
+    { "100 mtr","200 Mtr","400 Mtr", "LONGJUMP", "HIGHJUMP" };
 
-flag[n] = e_f_19[i];
-n++;
+    string e_m_12[] =
+    }] = { "100 mtr","200 Mtr","400 mtr", "LONGJUMP" };
+
+    string e_f_12[
+
+    string e_m_14[] = { "100 mMtr","200 Mtr","400 Mtr", "800
+    Mtr", "LONGJUMP", "HIGHJUMP", }
+
+    string e_f_14[] = { "100 mtr","200 Mtr","400 mtr", "800
+    Mtr", "LONGJUMP", "HIGHJUMP" , ye
+
+    string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500
+    Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS" };
+
+    string e_f_16[] = { "100 Mtr","200 mtr","400 Mtr","800 mMtr","800 Mtr
+    WALK", "1500 Mtr", ""LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS" };
+
+    string e_m_19[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 Mtr
+    WALK", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS", "JAVELIN" };
+    string e_f_19[] = { "100 mtr","200 Mtr","400 Mtr","800 Mtr", "800 Mtr
+    WALK", "1500 mtr", "LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS", "JAVELIN" };
+
+    string flag[50];
+    int n = 0;
+
+    for (int i = 0; i < 11; i++)
+
+    {
+    ifstream myfile;
+    string ch;
+    myfile.open(m_19[7]);
+    while (myfile.goodQ)
+    {
+
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+
+    flag[n] = e_m_19[i];
+    n+}
+    }
+    : myfile.close();
+
+    o (int 7 = 0; 1 < 11; i++)
+    ifstream myfile;
+    string ch;
+    myfile.open(f_19[i]);
+    while (myfile.good())
+    i
+
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+
+    flag[n] = e_f_19[i];
+    n++;
+
+    }
+
+    }
+    myfile.closeQ;
+    }
+
+    for (int i = 0; i < 9; i++)
+    {
+    ifstream myfile;
+    string ch;
+    myfile.open(m_16[i]);
+    while (myfile.good())
+
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+
+    flag[n] = e_m_16[i];
+    n++3
+
+    }
+
+    }
+    myfile.close();
+    }
+
+    for Cint i = 0; i < 10; i++)
+    {
+    ifstream myfile;
+    string ch;
+    myfile.open(f_16[i]);
+    while (myfile.good())
+
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+
+    flag[n] = e_f_16[i];
+    n++3
+
+    }
+
+    myfile.close();
+
+    }
+
+    for Cint 1 = 0; i < 6; i++)
+
+    {
+    ifstream myfile;
+    string ch;
+    myfile.open(m_14[i]);
+    . (myfile.good())
+
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+
+    flag([n] = e_m_14[i];
+
+    n++3
+    }
+    }
+    myfile.close();
+    }
+    for (int i = 0; i < 6; i++)
+    {
+    ifstream myfile;
+    string ch;
+    myfile.open(f_14[i]);
+    while (myfile.good())
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+    flag[n] = e_f_14[i];
+    n++;
+    }
+    }
+    myfile.close();
+    }
+    for (int i = 0; 7 < 5; i++)
+    {
+    ifstream myfile;
+    string ch;
+    myfile.open(m_12[i]);
+    while (myfile.good())
+    {
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+    flag[n] = e_m_12[i];
+    n++;
+    }
+    }
+    myfile.close();
+    }
+    for (int i = 0; i < 4; 44)
+    {
+
+    ifstream myfile;
+    string ch;
+    myfile.open(f_12[i]);
+    while (myfile.good())
+    {
+
+    getline(myfile, ch, ',');
+    if (chest_no == ch)
+
+    flag[n] = e_f_12[i];
+    n++;
+
+    }
+
+    }
+    ’ myfile.close(Q);
+
+    ifstream in("C:/Users/hp/source/repos/investigatory/OUTPUT/SA.csv");
+    string line, field;
+
+    vector<vector<string>>array;
+    vector<string>v;
+
+    while (getlineCin, line))
+
+    {
+
+    v.clearQ;
+    stringstream ss(line);
+    while (getline(ss, field, ',')) // break line into comma delimitted
+    fields
+    {
+    v.push_back(field); // add each field to the 1D array
+    }
+
+    array.push_back(v); // add the 1D array to the 2D array
+    }
+
+    //ofstream outfile;
+
+    //const char* path_Sa =
+    "Cc: /Users/hp/source/repos/investigatory/OUTPUT/SA.csv";
+
+    //outfile.open(path_Sa) ;
+
+    //outfile << array[i][0] <<","<< array[i][1] <<","<< array[i][2] << "," <<
+    array[iJ[3] << "," < array[i][4] << "," << array[i][5] << ","3
+
+    for (int j = 0; j < 4; j++)
+
+    {
+
+    cout << flag(j] <<" 5, "5
+
+    //outfile << flag[j] << 4
+
+    }
+    //outfile << "\n";
+    //outfile.closeQ ;
+
+    cout << endl;
 
 }
-
-}
-myfile.closeQ;
-}
-
-for (int i = 0; i < 9; i++)
+"
+void user::display()
 {
-ifstream myfile;
-string ch;
-myfile.open(m_16[i]);
-while (myfile.good())
-
-getline(myfile, ch, ',');
-if (chest_no == ch)
-
-flag[n] = e_m_16[i];
-n++3
-
-}
-
-}
-myfile.close();
-}
-
-for Cint i = 0; i < 10; i++)
-{
-ifstream myfile;
-string ch;
-myfile.open(f_16[i]);
-while (myfile.good())
-
-getline(myfile, ch, ',');
-if (chest_no == ch)
-
-flag[n] = e_f_16[i];
-n++3
-
-}
-
-myfile.close();
-
-}
-
-for Cint 1 = 0; i < 6; i++)
-
-{
-ifstream myfile;
-string ch;
-myfile.open(m_14[i]);
-. (myfile.good())
-
-getline(myfile, ch, ',');
-if (chest_no == ch)
-
-flag([n] = e_m_14[i];
-
-n++3
-}
-}
-myfile.close();
-}
-for (int i = 0; i < 6; i++)
-{
-ifstream myfile;
-string ch;
-myfile.open(f_14[i]);
-while (myfile.good())
-getline(myfile, ch, ',');
-if (chest_no == ch)
-flag[n] = e_f_14[i];
-n++;
-}
-}
-myfile.close();
-}
-for (int i = 0; 7 < 5; i++)
-{
-ifstream myfile;
-string ch;
-myfile.open(m_12[i]);
-while (myfile.good())
-{
-getline(myfile, ch, ',');
-if (chest_no == ch)
-flag[n] = e_m_12[i];
-n++;
-}
-}
-myfile.close();
-}
-for (int i = 0; i < 4; 44)
-{
-
-ifstream myfile;
-string ch;
-myfile.open(f_12[i]);
-while (myfile.good())
-{
-
-getline(myfile, ch, ',');
-if (chest_no == ch)
-
-flag[n] = e_f_12[i];
-n++;
-
-}
-
-}
-’ myfile.close(Q);
-
-ifstream in("C:/Users/hp/source/repos/investigatory/OUTPUT/SA.csv");
-string line, field;
-
-vector<vector<string>>array;
-vector<string>v;
-
-while (getlineCin, line))
-
-{
-
-v.clearQ;
-stringstream ss(line);
-while (getline(ss, field, ',')) // break line into comma delimitted
-fields
-{
-v.push_back(field); // add each field to the 1D array
-}
-
-array.push_back(v); // add the 1D array to the 2D array
-}
-
-//ofstream outfile;
-
-//const char* path_Sa =
-"Cc: /Users/hp/source/repos/investigatory/OUTPUT/SA.csv";
-
-//outfile.open(path_Sa) ;
-
-//outfile << array[i][0] <<","<< array[i][1] <<","<< array[i][2] << "," <<
-array[iJ[3] << "," < array[i][4] << "," << array[i][5] << ","3
-
-for (int j = 0; j < 4; j++)
-
-{
-
-cout << flag(j] <<" 5, "5
-
-//outfile << flag[j] << 4
-
-}
-//outfile << "\n";
-//outfile.closeQ ;
-
-cout << endl;
-
-}
-void user: :display(
-int div_choice;
-
-string chest_no;
-system("cls");
-
-start:
-
-Sleep(50) ;
-
-cout << "\n\t\t |-----------
-wane nnn nn nnn nnn "s Sleep(50);
-
-cout << "\n\t\t | BY CLASS
-12 (COMPUTER SCIENCE) |"; Sleep(50);
-
-cout << "\n\t\t a
-ns "; Sleep(50);
-cout
-cout
-cout
-cout
-cout
-cout
-
-{
-
-case
-
-<< "\nl. DISPLAY CLASS-WISE";
-<< "\n2. DISPLAY CHEST NO.-WISE";
-
-<< "\n3. DISPLAY CATEGORY-WISE";
-
-<< "\n4. DISPLAY GENDER-WISE";
-<< "\n5. DISPLAY EVENT-WISE";
-<< "ENTER YOUR CHOICE (1-5) :- ";
-cin >> choice;
-switch (choice)
-
-1:
-
-dstart:
-
-CLASS 12 (COMPUTER SCIENCE) |"
-
-THE CHOICES GIVEN BELOW\n";
-
-system("CLS");
-Sleep(50);
-
-cout << "\n\t\t
-cout << "\n\t\t
-cout << "\n\t\t
-
-Sleep(10);
-
-|"; Sleep(50) ;
-
-; Sleep(50);
-
-"s Sleep (50);
-
-cout << "\n\n\n\t\t\t\tPLEASE ENTER YOUR CLASS AND DIVISION USING
-
-Sleep(10);
-
-cout << "\t\t\t\t 1 >> 5A \t\t
-
-Sleep(10);
-cout << "\t\t\t\t
-Sleep(10) ;
-cout << "\t\t\t\t
-Sleep(10);
-cout << "\t\t\t\t
-Sleep(10);
-cout << "\t\t\t\t
-Sleep(10);
-cout << "\t\t\t\t
-Sleep(10) ;
-cout << "\t\t\t\t
-Sleep(10);
-cout << "\t\t\t\t
-Sleep(10) ;
-cout << "\t\t\t\t
-Sleep(10);
-
-2
-3
-
-8
-9
-
-cout << "\t\t\t\t10
-
-Sleep(10);
-
-cout << "\t\t\t\t11
-
-Sleep(10);
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
-cout << "\t\t\t\t1l2 >>
-
-Sleep(10);
-
-5B \t\t
-5c \t\t
-5D \t\t
-6A \t\t
-6B \t\t
-6c \t\t
-6D \t\t
-7A \t\t
-
-7B \t\t
-
-TC \t\t
-
-7D \t\t
-
-13 >> 8A \n";
-
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
->>
-
-cout << "\t\t\t\t0 >> TO GO BACK";
-
-Sleep(10);
-
-cout << "\n\t\t\t\tENTER YOUR CHOICE (0-24):- ";
-cin >> div_choice;
-
-8B \n";
-8c \n";
-8D \n";
-9A \n";
-9B \n";
-9c \n";
-10A \n";
-10B \n";
-10c \n";
-11 \n";
-12 \n";
-
-if (div_choice > 24 && div_choice < 0)
-
-{
-
-cout << "INVALID CHOICE!! ";
-cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-
-cout << "\n>> 1. RETRY";
-cout << "\n>> 2. CLOSE APPLICATION\n";
-
-
-}
-
-cin >> choice;
-
-if (choice == 1)
-
-{
-system("cls");
-goto dstart;
-
-}
-
-else
-
-u.close_app();
-
-}
-
-else if (div_choice == 0)
-
-{
-}
-
-u.admin_menu() ;
-
-else
-
-}
-
-u.display_class_wise(div_choice) ;
-
-break;
-
-case 2:
-
-u.display_chest_wise() ;
-break;
-
-case 3:
-
-u.display_category_wise();
-break;
-
-default :
-cout << "INVALID CHOICE! !!";
-cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-cout << "\n>> 1. RETRY";
-cout << "\n>> 2. CLOSE APPLICATION\n";
-cin >> choice;
-if (choice == 1)
-
-{
-}
-
-‘goto start;
-
-else
-
-}
-
-exit(0);
-
-break;
-
-void user: :close_app()
-
-{
-
-char choice;
-system("CLS");
-
-cout <<
-cout <<
-cout <<
-cout <<
-
-"ARE YOU SURE TO EXIT ?\n";
-"\nENTER '1' IF YES\n";
-"ENTER '2' IF NO\n";
-
-"ENTER YOUR CHOICE HERE:- ";
-
-cin >> choice;
-if (choice == 1)
-wTFewy wa =» = —_
-
-a
-
-SD OEE SFE TEE TCS NSF lS CF STF CTF CTF CSF TF TFET TEE TD OT OSES Ss lle ll SSE lle le eee
-
-exit(0);
-
-“se if (choice == 2)
-
-u.homepage();
-
-else
-
-{
-cout << "INVALID CHOICE! !";
-
-cout << "\nRETRY AGAIN";
-
-}
-}
-
-void user: :user_menu()
-{
-
-int choice;
-
-hstart:
-
-system("CLS");
-
-Sleep(50) ;
-
-cout << "\n\t\t |-----------
-worn nnn n enn n nnn nnne |"; Sleep(50) ;
-
-cout << "\n\t\t | BY CLASS
-12 CCOMPUTER SCIENCE) |"; Sleep(50);
-
-cout << "\n\t\t |-----------
-manaasasseerssssnennna |"; Sleep(50);
-
-cout <<
-"\ n\n n\n\n\n\m\t\t\t\t\ tet eee eee eee aR Re RARER AAS RASS SEES SEES SERS
-
-HERARAAAARAEAERREREARAE HE Sleep(10) ;
-
-cout << PVC CACC CR EERE REE ER RR HH USER MENU
-HAEAAREARREARAEAREARERE Ye Sleep(10) ;
-
-cout << PV EA CV CV C\ CREE RR ee He HH
-RARER AAARARRERRERERER le Sleep(10) ;
-
-COUt << "\t\t\t\t\ teeter eres tere eae a eee 1. REGISTER CLASS-WISE
-HEAEARAARAR AER RARARAER le Sleep(10) ;
-
-cout << MV cl Che At Cree ge eee eae ee eee ee eee
-RARREKAARRARARRERERAR HY He Sleep(10) ;
-
-Cout << "\t\t\t\t\ terete seer ern aaa aera 2. REGISTER CHEST NO WISE
-HRERAREAERERAREREREEER 1" STeep(10);
-
-cout << ACV EN EV C\LCRE Eee eee ee ee oes
-RHRAEARARREAREREEREREE Ye Sleep(10) ;
-
-cout << "\the\e\e cree estes aerate tae seas 3. GO BACK TO MAIN MENU
-RHREREAAREAEAEERAEREERY 1)" Sleep(10) ;
-
-cout << PCA CA CL CV CR eee R EE Ree RRR RR
-ERERER ERA EAEEREAE ARERR HM Sleep(10) ;
-
-cout << NCA C\ CCC eae ee RR A 4. CIOSE APPLICATION
-HRERER EAE RERE AERA ER ERY Sleep(10) ;
-cout <<
-
-VEAL CVC CEE ERE I HR II I HI RHR HH RR RARE HER RHR RHR RRR RARE RRR SEES
-
-weeeeeeeee\ n\n\t\t\t\t\t"; Sleep(10);
-cout << "ENTER YOUR CHOICE (1-4):- "; Sleep(10);
-cin >> choice;
-
-switch (choice)
-
-{
-case 1:
-u.class_display();
-break;
-
-case 2:
-u.chest_reg();
-break;
-
-case 3:
-u.homepage() ;
-break;
-
-case 4:
-u.close_app();
-break;
-
-default:
-
-cout << "INVALID CHOICE! !!";
-
-cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-cout << "\n>> 1. RETRY";
-
-cout << "\n>> 2. CLOSE APPLICATION\n";
-
-cin >> choice;
-
-if (choice == 1)
-
-{
-
-}
-
-else
-
-goto hstart;
-
-exit(0);
-}
-
-break;
-
-}
-}
-
-void user::admin_menu()
-{
-	start:
-        system("cls");
-        cout<<:"ADMIN MENU\n";
-        cout<<"\n 1. DISPLAY THE DETAILS\n";
-        cout<<"\n 2. MODIFY BY CHEST NUMBER\n";
-        cout<<"\n 3. DELETE\n";
-        cout<<"\n 4. GO BACK TO MAIN MENU\n";
-        cout<<"\n 5. CLOSE APPLICATION\n";
-        cout << "\n ENTER YOUR CHOICE (1-5):- "; Sleep(10);
+    int div_choice;
+    string chest_no;
+    system("cls");
+    start:
+        Sleep(50) ;
+        cout << "\nl. DISPLAY CLASS-WISE";
+        cout << "\n2. DISPLAY CHEST NO.-WISE";
+        cout << "\n3. DISPLAY CATEGORY-WISE";
+        cout << "\n4. DISPLAY GENDER-WISE";
+        cout << "\n5. DISPLAY EVENT-WISE";
+        cout << "ENTER YOUR CHOICE (1-5) :- ";
         cin >> choice;
-
         switch (choice)
         {
             case 1:
-                u.display();
+                dstart:
+                    system("CLS");
+                    Sleep(50);
+                    cout<< "PLEASE ENTER YOUR CLASS AND DIVISION USING THE CHOICES GIVEN BELOW\n";
+                    cout<< " \t\t\t\t 1 >> 5A \t\t\t 13 >> 8A \n";
+                    cout<< " \t\t\t\t 2 >> 5A \t\t\t 14 >> 8A \n";
+                    cout<< " \t\t\t\t 3 >> 5A \t\t\t 15 >> 8A \n";
+                    cout<< " \t\t\t\t 4 >> 5A \t\t\t 16 >> 8A \n";
+                    cout<< " \t\t\t\t 5 >> 5A \t\t\t 17 >> 8A \n";
+                    cout<< " \t\t\t\t 6 >> 5A \t\t\t 18 >> 8A \n";
+                    cout<< " \t\t\t\t 7 >> 5A \t\t\t 19 >> 8A \n";
+                    cout<< " \t\t\t\t 8 >> 5A \t\t\t 20 >> 8A \n";
+                    cout<< " \t\t\t\t 9 >> 5A \t\t\t 21 >> 8A \n";
+                    cout<< " \t\t\t\t10 >> 5A \t\t\t 22 >> 8A \n";
+                    cout<< " \t\t\t\t11 >> 5A \t\t\t 23 >> 8A \n";
+                    cout<< " \t\t\t\t12 >> 5A \t\t\t 24 >> 8A \n";
+                    cout<< " \t\t\t\t 0 >> TO GO BACK";
+                    cout << "\n\t\t\t\tENTER YOUR CHOICE (0-24):- ";
+                    cin >> div_choice;
+                    if (div_choice > 24 && div_choice < 0)
+                    {
+                        cout << "INVALID CHOICE!! ";
+                        cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
+                        cout << "\n>> 1. RETRY";
+                        cout << "\n>> 2. CLOSE APPLICATION\n";
+                        cin >> choice;
+                        if (choice == 1)
+                        {
+                            system("cls");
+                            goto dstart;
+                        }
+                        else
+                        {
+                            u.close_app();
+                        }
+                    }
+                    else if (div_choice == 0)
+                    {
+                        u.admin_menu() ;
+                    }
+                    else
+                    {
+                        u.display_class_wise(div_choice) ;
+                    }
+                    break;
+
+            case 2:
+                u.display_chest_wise() ;
                 break;
-            case 4:
-                u.homepage();
+
+            case 3:
+                u.display_category_wise();
                 break;
-            case 5:
-                u.close_app();
-                break;
-            default:
-                cout << "INVALID CHOICE!!!";
+
+            default :
+                cout << "INVALID CHOICE! !!";
                 cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
                 cout << "\n>> 1. RETRY";
                 cout << "\n>> 2. CLOSE APPLICATION\n";
@@ -2227,12 +1842,131 @@ void user::admin_menu()
                 if (choice == 1)
                 {
                     goto start;
-                } 
+                }
+                else
+                {
+                    exit(0);
+                }  
+                break;
+        }
+}
+
+void user::close_app()
+{
+
+    char choice;
+    system("CLS");
+
+    cout << "ARE YOU SURE TO EXIT ?\n";
+    cout << "\nENTER '1' IF YES\n";
+    cout << "ENTER '2' IF NO\n";
+    cout << "ENTER YOUR CHOICE HERE:- ";
+    cin >> choice;
+    if (choice == 1)
+    {
+        exit(0);
+    }
+    else if( choice == 2)
+    {
+        u.homepage();
+    }
+    else
+    {
+        cout << "INVALID CHOICE! !";
+        cout << "\nRETRY AGAIN";
+    }
+
+}
+"
+void user::user_menu()
+{
+    int choice;
+    hstart:
+        system("CLS");
+        Sleep(50) ;
+        cout<< "USER MENU\n";
+        cout<< "\n 1. Register Class-Wise\n";
+        cout<< "\n 2. Register Chest Number Wise\n";
+        cout<< "\n 3. Go back to Main menu\n";
+        cout<< "\n 4. Close Application\n";
+        cout << "ENTER YOUR CHOICE (1-4):- "; Sleep(10);
+        cin >> choice;
+
+        switch (choice)
+        {
+            case 1:
+                u.class_display();
+                break;
+
+            case 2:
+                u.chest_reg();
+                break;
+
+            case 3:
+                u.homepage() ;
+                break;
+
+            case 4:
+                u.close_app();
+                break;
+
+            default:
+                cout << "INVALID CHOICE! !!";
+                cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
+                cout << "\n>> 1. RETRY";
+                cout << "\n>> 2. CLOSE APPLICATION\n";
+                cin >> choice;
+                if (choice == 1)
+                {
+                    goto hstart;
+                }
                 else
                 {
                     exit(0);
                 }
                 break;
+        }
+    }
+
+    void user::admin_menu()
+    {
+        start:
+            system("cls");
+            cout<<:"ADMIN MENU\n";
+            cout<<"\n 1. DISPLAY THE DETAILS\n";
+            cout<<"\n 2. MODIFY BY CHEST NUMBER\n";
+            cout<<"\n 3. DELETE\n";
+            cout<<"\n 4. GO BACK TO MAIN MENU\n";
+            cout<<"\n 5. CLOSE APPLICATION\n";
+            cout << "\n ENTER YOUR CHOICE (1-5):- "; Sleep(10);
+            cin >> choice;
+
+            switch (choice)
+            {
+                case 1:
+                    u.display();
+                    break;
+                case 4:
+                    u.homepage();
+                    break;
+                case 5:
+                    u.close_app();
+                    break;
+                default:
+                    cout << "INVALID CHOICE!!!";
+                    cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
+                    cout << "\n>> 1. RETRY";
+                    cout << "\n>> 2. CLOSE APPLICATION\n";
+                    cin >> choice;
+                    if (choice == 1)
+                    {
+                        goto start;
+                    } 
+                    else
+                    {
+                        exit(0);
+                    }
+                    break;
         }
     
 }
