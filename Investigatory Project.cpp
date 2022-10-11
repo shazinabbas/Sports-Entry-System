@@ -42,13 +42,7 @@ void user::class_display()
     beginning_of_class_display:
         system("CLS");
         Sleep(50) ;
-        // cout << "\n\t\t
-        // w-------------------- "s Sleep(50);
-        // cout << "\n\t\t
-        // 12 (COMPUTER SCIENCE) |";
-        //  Sleep(50);
-        // cout << "\n\t\t
-        // --------------------- |"; Sleep(50);
+       
         Sleep(10) ;
 
         cout << "\n\n\n\t\t\t\tPLEASE ENTER YOUR CLASS AND DIVISION USING THE CHOICES GIVEN BELOW\n";
@@ -188,7 +182,7 @@ void user::class_display()
         {
         cout << "INVALID CHOICE!! ";
         cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-        cout << "\n>> 1. RETRY";
+        cout << "\n>> 1. PLEASE RETRY";
         cout << "\n>> 2. CLOSE APPLICATION\n";
         cin >> choice;
         if (choice == 1)
@@ -239,7 +233,7 @@ void user::class_display()
 
         for (size_t i = 1; i < array.sizeQ; i++)
         {
-            //star:
+            
             Sleep(50);
             cout <<endl<< array[0][7] <« " - "<< array[0][6] << " - " <<array[0][2] << " - "<< array[0][5] << " - " <<array[0][9]<< " - " <<array[0][1] << endl;
             cout<< array[i][7] <« "- "<< array[i][6] << "- " << array[i][2] << " - " << array[i][5] << " - " ;
@@ -286,7 +280,7 @@ void user::class_display()
                     cout << "\n 5>> HIGH JUMP";
                     cout << "\n 0>> NO EVENT";
                     cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-5)";
-                    cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
+                    cout << "\n[ NOTE:- AN ATHLETE CAN CAN PARTICIPATE IN 4 EVENTS AT MAX!!! ]\n";
 
                     for (int i = 1; i <= 4; i++)
                     {
@@ -689,7 +683,7 @@ cout << list[div_choice - 1];
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT
 WITH THE ADMINS\nTO CONTINUE FURTHER\n":
 
-system("pause");
+system("PAUSE");
 Sleep(1000);
 }
 
