@@ -61,7 +61,7 @@ If you’re building a demo app, writing a tutorial or blog post, fork the READM
 You will receive a review, comment, and approval by a member of the Pusher team within a couple of days. All PRs accepted by the team will be marked as ‘hacktoberfest-accepted’ by October 31st. 
 
 
-## The Project :star:
+## ⭐ The Project :star:
 # Sports-Entry-System
 A management system which can be used in the schools and colleges for registering and managing the details during sports fest. Hacktoberfest-accepted.
 
