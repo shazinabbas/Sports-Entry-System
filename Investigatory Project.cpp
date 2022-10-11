@@ -139,6 +139,7 @@ void user::class_display()
                 cout << sl_no << " - " << chest << " - " << name << endl ;
             }
         }
+	cout<<"Hello";
         myfile.close();
         cout << endl << "GIRLS" << endl << endl;
         myfile.open(list[div_choice-1]);
