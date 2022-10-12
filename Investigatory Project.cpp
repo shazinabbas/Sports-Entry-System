@@ -254,6 +254,7 @@ void user::class_display()
             {
                 cout << "GANGA";
             }
+		cout<<"Lokesh";
             else if (array[i][9] == "y" || array[i] [9] == "Y")
             {
                 cout << "YAMUNA";
