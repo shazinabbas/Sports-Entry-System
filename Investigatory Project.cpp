@@ -42,7 +42,7 @@ void user::class_display()
     beginning_of_class_display:
         system("CLS");
         Sleep(50) ;
-       
+
         Sleep(10) ;
 
         cout << "\n\n\n\t\t\t\tPLEASE ENTER YOUR CLASS AND DIVISION USING THE CHOICES GIVEN BELOW\n";
@@ -583,6 +583,7 @@ void user::class_display()
 
             }
             else
+	    {
             {
 
             cout << "\n 4th Entry:-";
@@ -1587,6 +1588,12 @@ void user::stu_events(string chest_no)
 
     myfile.close();
 
+for (int i = 0; i < 10; i++)
+{
+ifstream myfile;
+string ch;
+myfile.open(f_16[i]);
+while (myfile.good())
     }
 
     for Cint 1 = 0; i < 6; i++)
