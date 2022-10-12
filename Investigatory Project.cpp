@@ -42,13 +42,7 @@ void user::class_display()
     beginning_of_class_display:
         system("CLS");
         Sleep(50) ;
-        // cout << "\n\t\t
-        // w-------------------- "s Sleep(50);
-        // cout << "\n\t\t
-        // 12 (COMPUTER SCIENCE) |";
-        //  Sleep(50);
-        // cout << "\n\t\t
-        // --------------------- |"; Sleep(50);
+        
         Sleep(10) ;
 
         cout << "\n\n\n\t\t\t\tPLEASE ENTER YOUR CLASS AND DIVISION USING THE CHOICES GIVEN BELOW\n";
@@ -597,8 +591,7 @@ void user::class_display()
             }
 
             else
-
-            {
+	    {
 
             cout << "\n 4th Entry:- 5
             cin >> choice;
@@ -1751,7 +1744,7 @@ n++3
 myfile.close();
 }
 
-for Cint i = 0; i < 10; i++)
+for (int i = 0; i < 10; i++)
 {
 ifstream myfile;
 string ch;
