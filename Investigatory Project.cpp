@@ -1457,8 +1457,8 @@ cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT
-WITH THE ADMINS\nTO CONTINUE FURTHER\n";
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n"; 
+
 
 system("pause”);
 
@@ -1470,8 +1470,8 @@ Sleep(1000) ;
 cout << "\NTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH
-THE ADMINS\nTO CONTINUE FURTHER\n";
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
+
 
 system("pause");
 Sleep(1000) ;
@@ -1530,10 +1530,7 @@ void user::stu_events(string chest_no)
 
     string m_19[] = {"m_19_100.csv", "m_19_200.csv", "m_19_400.csv", "m_19_800.csv", "m_19_800walk.csv","m_19_1500.csv", "m_19_longjump.csv","m_19_highjump.csv", "m_19_shotput.csv"\"m_19_discuss.csv","m_19_javelin.csv" };
 
-    string f_19[] = {
-    "f_19_100. csv", "f_19_200.csv", "f_19_400. csv", "f_19_800.csv", "f_19_800walk.cs
-    v","£_19_1500. csv", "f_19_longjump.csv","f_19_highjump.csv","f_19_shotput.csv
-    ","f_19_discuss.csv","f_19_javelin.csv" };
+    string f_19[] = {"f_19_100. csv", "f_19_200.csv", "f_19_400. csv", "f_19_800.csv", "f_19_800walk.csv","£_19_1500. csv", "f_19_longjump.csv","f_19_highjump.csv","f_19_shotput.csv","f_19_discuss.csv","f_19_javelin.csv" };
 
     { "100 mtr","200 Mtr","400 Mtr", "LONGJUMP", "HIGHJUMP" };
 
