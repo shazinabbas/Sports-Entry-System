@@ -436,20 +436,20 @@ void user::class_display()
                 {
                 if G == 1)
                 {
-                cout << "\n 1st ENTRY:- "
+                cout << "\n 1st ENTRY:- ";
                 cin >> choice;
 
                 }
                 else if (i == 2)
                 {
 
-                cout << "\n 2nd ENTRY:- "3
+                cout << "\n 2nd ENTRY:- ";
                 cin >> choice;
 
                 }
                 else if (i == 3)
 
-                : cout << "\n 3rd ENTRY:- "3
+                cout << "\n 3rd ENTRY:- ";
                 cin >> choice;
 
                 }
@@ -513,15 +513,13 @@ void user::class_display()
             break;
 
             case 8:
-            outfile.open("m_16_shotput.csv",jos_base::app); non
+            outfile.open("m_16_shotput.csv",jos_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.closeQ;
             break;
             case 9:
-            outfile.open("m_16_discuss.csv",
-
-            jos_base::app);
+            outfile.open("m_16_discuss.csv",jos_base::app);
 
             outfile << chest_no << ",".<< "\n";
             outfile.close();
@@ -535,7 +533,7 @@ void user::class_display()
 
             cout << "\n\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
 
-            cout << "\n 1>> 100 Mtr RACE":
+            cout << "\n 1>> 100 Mtr RACE";
 
             cout << "\n 2>> 200 Mtr RACE";;
 
@@ -559,11 +557,8 @@ void user::class_display()
 
             cout << "\n 0>> NO EVENT";
 
-            cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
-
-            MISATKES (0-11)";
-            cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
-            MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
+            cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-11)";
+            cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
 
             for (int i = 1; 7 <= 4; i++)
 
@@ -583,14 +578,14 @@ void user::class_display()
             }
             else if (i == 3)
 
-            : cout << "\n 3rd ENTRY:- "3
+            : cout << "\n 3rd ENTRY:- ";
             cin >> choice;
 
             }
             else
             {
 
-            cout << "\n 4th Entry:- 5
+            cout << "\n 4th Entry:-";
             cin >> choice;
 
             }
@@ -680,8 +675,7 @@ else
 cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT
-WITH THE ADMINS\nTO CONTINUE FURTHER\n":
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
 
 system("PAUSE");
 Sleep(1000);
@@ -690,9 +684,7 @@ Sleep(1000);
 else if (array[i][5] == "Female")
 {
 
-if (array[i]([8] == "2008" || array[i][8] == "2009" ||
-
-array[i][8] == "2010")
+if (array[i]([8] == "2008" || array[i][8] == "2009" || array[i][8] == "2010")
 {
 
     ofstream outfile;
@@ -708,15 +700,15 @@ array[i][8] == "2010")
 
     cout<<"\n O>> NO EVENT";
 
-    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
+    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY";
 
-    cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
+    cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN";
 
     cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!!\n";
 for int i = 1; i <= 4; i++)
 
 {
-if i == 1)
+if (i == 1)
 {
 
 cout << "\n lst ENTRY:- ";
@@ -734,14 +726,14 @@ cin >> choice;
 else if (i == 3)
 
 {
-cout << "\n 3rd ENTRY:- "3
+cout << "\n 3rd ENTRY:- ";
 cin >> choice;
 
 }
 else
 {
 
-cout << "\n 4th Entry:- "
+cout << "\n 4th Entry:- ";
 cin >> choice;
 
 switch (choice)
@@ -778,7 +770,7 @@ break;
 
 case 4:
 
-outfile.open("f_12_longjump.csv",
+outfile.open("f_12_longjump.csv");
 
 outfile << chest_no << "," << "\n";
 outfile.close();
@@ -796,51 +788,17 @@ else if (array[i][8] == "2007" || array[i][8] == "2006")
 
 ofstream outfile;
 
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-: cout
-MISATKES (0-6)";
+cout<<"\n\nYOUR UNDER_14 ITEMS ARE GIVEN BELOW:- \n";
+cout<<"\n 1>> 100 Mtr RACE";
+cout<<"\n 2>> 200 Mtr RACE";;
+cout<<"\n 3>> 400 Mtr RACE";
+cout<<"\n 4>> 800 Mtr RACE";
+cout<<"\n 5>> LONG JUMP";
+cout<<"\n 6>> HIGH JUMP";
+cout<<"\n O>> NO EVENT";
+cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-6)";
+cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n"; .
 
-cout
-
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-
-<<
-
-"\n\nYOUR UNDER_14 ITEMS ARE GIVEN BELOW:- \n";
-"\n 1>> 100 Mtr RACE";
-
-"\n 2>> 200 Mtr RACE";;
-
-"\n 3>> 400 Mtr RACE";
-
-"\n 4>> 800 Mtr RACE";
-
-"\n 5>> LONG JUMP";
-
-"\n 6>> HIGH JUMP";
-
-"\n O>> NO EVENT";
-
-"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
-
-"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
-
-MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n"; .
 for Cint i = 1; i <= 4; i++)
 
 {
@@ -849,7 +807,7 @@ if G == 1)
 
 {
 
-cout << "\n Ist ENTRY:- "3
+cout << "\n Ist ENTRY:- ";
 cin >> choice;
 
 }
@@ -876,7 +834,7 @@ jos_base: :app);
 else
 
 {
-cout << "\n 4th Entry:- "3
+cout << "\n 4th Entry:- ";
 
 cin >> choice;
 
@@ -917,14 +875,14 @@ outfile.closeQ);
 break;
 
 case 5:
-outfile.open("f_14_longjump.csv",
+outfile.open("f_14_longjump.csv");
 
 outfile << chest_no << "," << "\n";
 outfile.close();
 break;
 
 case 6:
-outfile.open("f_14_highjump.csv",
+outfile.open("f_14_highjump.csv");
 
 outfile << chest_no << "," << "\n";
 outfile.close();
@@ -937,9 +895,7 @@ break;
 
 }
 
-else if (array[i][8] == "2003" || array[i][8] == "2004" ||
-
-array[i][8] == "2005")
+else if (array[i][8] == "2003" || array[i][8] == "2004" || array[i][8] == "2005")
 {
 
 ofstream outfile;
