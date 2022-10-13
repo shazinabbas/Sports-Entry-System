@@ -1965,53 +1965,23 @@ void user::homepage()
 
 void welcome()
 {
-    Sleep(50) ;
-    cout << "\n\t\t | ----------- |"; 
-    Sleep(50);
-    
-    cout << "\n\t\t | BY CLASS
-    12 (COMPUTER SCIENCE) |"; Sleep(50);
-    
-    cout << "\n\t\t |-----------
-    nn eh NN A |"; Sleep(50);
-    
-    cout << "\n\n\n\n\n\n\n" << end]; Sleep(10);
-    
-    cout << "\t\t | --------------------------------------------
-    
-    wort rn nnn nn nanan nnn nnn n nnn nnn nnn nnenananan- "<< endl;
-    Sleep(10) ;
-    cout << "\t\t |
-    | " << endl; Sleep(10);
-    cout << "\t\t | ee koe RK
-    me +e ee Pe | " << endl; Sleep(10);
-    cout << "\t\t | * *
-    ie * 7 | " << endl; Sleep(10);
-    cout << "\t\t | * *
-    * * * * J "<< endl;
-    Sleep(10) ;
-    cout << "\t\t | * *
-    * * * * | " << endl;
-    Sleep(10) ; .
-    cout << "\t\t | *
-    - * * | " << endl; Sleep(10);
-    cout << "\t\t | ae .
-    koe \ * * | " << endl; Sleep(10);
-    cout << "\t\t | * .
-    * * | " << endl; Sleep(10);
-    cout << "\t\t | ek kK RK *
-    * keke eee | " << endl; Sleep(10);
-    cout << "\t\t | * *
-    x * | " << endl; Sleep(10);
-    cout << "\t\t | * *
-    * * | " << endl; Sleep(10);
-    cout << "\t\t | * 7
-    * * | " << endl; Sleep(10);
-    
-    Sleep(3000);
+    int x;
+    cout << "\t \t | ----------------------------- |"; 
+    // sleep(5);
+    cout << "\n\t | SPORTS ENTRY SYSTEM |"<<endl;
+    cout<<"1. Go to main content"<<endl;
+    cout<<"2. Exit"<<endl;
+    cin>>x;
+    if(x==1){
+        u.homepage();
+    }
+    else{
+        exit(1);
+    }
 }
-int main
+int main()
 {            
     welcome();
-    u.homepage ();
+    return 0;
 }
+
