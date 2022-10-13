@@ -519,9 +519,9 @@ void user::class_display()
             outfile.closeQ;
             break;
             case 9:
-            outfile.open("m_16_discuss.csv",
+            outfile.open("m_16_discuss.csv", jos_base::app);
 
-            jos_base::app);
+           
 
             outfile << chest_no << ",".<< "\n";
             outfile.close();
@@ -562,8 +562,8 @@ void user::class_display()
             cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
 
             MISATKES (0-11)";
-            cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
-            MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
+            cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
+            
 
             for (int i = 1; 7 <= 4; i++)
 
