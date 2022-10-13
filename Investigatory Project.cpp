@@ -805,7 +805,7 @@ for Cint i = 1; i <= 4; i++)
 
 {
 
-if G == 1)
+if (G == 1)
 
 {
 
@@ -1534,7 +1534,7 @@ void user::stu_events(string chest_no)
     }
     : myfile.close();
 
-    o (int 7 = 0; 1 < 11; i++)
+    for (int 7 = 0; 1 < 11; i++)
     ifstream myfile;
     string ch;
     myfile.open(f_19[i]);
@@ -1572,7 +1572,7 @@ void user::stu_events(string chest_no)
     myfile.close();
     }
 
-    for Cint i = 0; i < 10; i++)
+    for(int i = 0; i < 10; i++)//please be carefull while using loops
     {
     ifstream myfile;
     string ch;
