@@ -520,6 +520,9 @@ void user::class_display()
             outfile.closeQ;
             break;
             case 9:
+            outfile.open("m_16_discuss.csv", jos_base::app);
+
+           
             outfile.open("m_16_discuss.csv",jos_base::app);
 
             outfile << chest_no << ",".<< "\n";
@@ -557,7 +560,11 @@ void user::class_display()
             cout << "\n 11>> JAVELIN THROW";
 
             cout << "\n 0>> NO EVENT";
+            cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
 
+            MISATKES (0-11)";
+            cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
+            
             cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-11)";
             cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
 
@@ -677,6 +684,8 @@ else
 cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT";
+WITH THE ADMINS\nTO CONTINUE FURTHER\n":
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
 
 system("PAUSE");
@@ -687,6 +696,9 @@ else if (array[i][5] == "Female")
 {
 
 if (array[i]([8] == "2008" || array[i][8] == "2009" || array[i][8] == "2010")
+
+
+main
 {
 
     ofstream outfile;
