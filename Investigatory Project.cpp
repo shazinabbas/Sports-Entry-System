@@ -1963,4 +1963,25 @@ void user::homepage()
     }
 }
 
+void welcome()
+{
+    int x;
+    cout << "\t \t | ----------------------------- |"; 
+    // sleep(5);
+    cout << "\n\t | SPORTS ENTRY SYSTEM |"<<endl;
+    cout<<"1. Go to main content"<<endl;
+    cout<<"2. Exit"<<endl;
+    cin>>x;
+    if(x==1){
+        u.homepage();
+    }
+    else{
+        exit(1);
+    }
+}
+int main()
+{            
+    welcome();
+    return 0;
+}
 
