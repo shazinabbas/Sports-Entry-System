@@ -73,7 +73,7 @@ void user::class_display()
         Sleep(10) ;
         std::cout << "\t\t\t\t0 >> TO GO BACK";
         Sleep(10) ;
-        cout << "\n\t\t\t\tENTER YOUR CHOICE (0-24):- "5
+        cout << "\n\t\t\t\tENTER YOUR CHOICE (0-24):- ";
         cin >> div_choice;
         if(div_choice>24 && div_choice<0)
         {
@@ -345,7 +345,7 @@ void user::class_display()
                     ofstream outfile;
                     cout << "\n\nYOUR UNDER_14 ITEMS ARE GIVEN BELOW:- \n";
                     cout << "\n 1>> 100 Mtr RACE";
-                    cout << "\n 2>> 200 Mtr RACE";;
+                    cout << "\n 2>> 200 Mtr RACE";
                     cout << "\n 3>> 400 Mtr RACE";
                     cout << "\n 4>> 800 Mtr RACE";
                     cout << "\n 5>> LONG JUMP";
@@ -481,7 +481,7 @@ void user::class_display()
 
             case 3:
             outfile.open("m_16_400.csv", ios_base::app);
-            outfile << chest_no << "," << "\n":
+            outfile << chest_no << "," << "\n";
             outfile.close();
             break;
 
@@ -535,7 +535,7 @@ void user::class_display()
 
             cout << "\n 1>> 100 Mtr RACE";
 
-            cout << "\n 2>> 200 Mtr RACE";;
+            cout << "\n 2>> 200 Mtr RACE";
 
             cout << "\n 3>> 400 Mtr RACE";
 
@@ -906,91 +906,40 @@ cout << "\n 1>> 100 Mtr RACE";
 cout << "\n 2>> 200 Mtr RACE";;
 
 cout << "\n 3>> 400 Mtr RACE";
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-MISATKES (0-10)";
-cout
+cout << "\n 4>> 800 Mtr RACE";
+cout << "\n 5>> 800 Mtr WALKING RACE";
+cout << "\n 6>> 1500 Mtr RACE";
+cout << "\n 7>> LONG JUMP";
+cout << "\n 8>> HIGH JUMP";
+cout << "\n 9>> SHOT PUT THROW";
+cout << "\n 10>> DISCUSS THROW";
+cout << "\n 0>> NO EVENT";
+cout << "\n MISATKES (0-10)";
+cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
 
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-<< "\n 0>> NO
-<<
 
-6>>
-7>>
-8>>
-9>>
-
-<<
-
-4>> 800 Mtr RACE";
-5>> 800 Mtr WALKING RACE";
-1500 Mtr RACE":
-LONG JUMP";
-
-HIGH JUMP";
-
-SHOT PUT THROW";
-10>> DISCUSS THROW";
-
-EVENT";
-
-MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
-
-1; i <= 4; i+4)
-
-"\n Ist ENTRY:
-
-cin >> choice;
-
-2)
-
-"\n 2nd ENTRY:
-
-cin >> choice;
-
-3)
-
-"\n 3rd ENTRY:
-
-cin >> choice;
-
-for (int i =
+for (int i = 1; i <= 4; i+4)
 {
-if G == 1)
+	if G == 1)
 {
-cout <<
+		cout << "\n Ist ENTRY:";
+		cin >> choice;
 }
-else if (i ==
+	else if (i == 2)
 {
-cout <<
-else if (i ==
+		cout << "\n 2nd ENTRY:";
+		cin >> choice;
+	else if (i == 3)
 {
-cout <<
+		cout << "\n 3rd ENTRY:";
+		cin >> choice;
 }
-else
+	else
 {
-
-cout <<
-
-"\n 4th Entry:
-
-cin >> choice;
+		cout << "\n 4th Entry:";
+		cin >> choice;
 
 switch (choice)
-
 {
 case 0:
 cout <<
@@ -1058,7 +1007,7 @@ app) ;
 :app);
 
 app) ;
-ios_base:
+ios_base:
 
 ios_base:
 
@@ -1159,153 +1108,77 @@ else if (array[i][8] == "2001" || array[i][8] == "2002")
 ofstream outfile; ,
 "\n\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
 
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-cout
-
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-<<
-
-"\n
-
-1l>>
-2>>
-3>>
-4>>
-5>>
-6>>
-7>>
-8>>
-
-100 Mtr RACE";
-
-200 Mtr RACE";;
-
-400 Mtr RACE";
-
-800 Mtr RACE";
-
-800 Mtr WALKING RACE";
-1500 Mtr RACE";
-
-LONG JUMP";
-
-HIGH JUMP";
-cout
-
-cout
-
-cout
-
-cout
-
-cout
+cout << "\n 1>> 100 Mtr RACE";
+cout << "\n 2>> 200 Mtr RACE";
+cout << "\n 3>> 400 Mtr RACE";
+cout << "\n 4>> 800 Mtr RACE";
+cout << "\n 5>> 800 Mtr WALKING RACE";
+cout << "\n 6>> 1500 Mtr RACE";
+cout << "\n 7>> LONG JUMP";
+cout << "\n 8>> HIGH JUMP";
+//cout << "\n
+	
+cout<< "\n 9>> SHOT PUT";
+cout<< "\n 10>> DISCUSS THROW";
+cout<< "\n 11>> JAVELIN THROW";
+cout<< "\n 0>> NO EVENT";
+cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! J\n";
 MISATKES (0-11)";
 
-cout
+//cout<<
 
-<<
-<<
-<<
-<<
-<<
-
-"\n 0>> NO
-
-<<
-
-"\n 9>> SHOT PUT";
-"\n 10>> DISCUSS THROW";
-"\n 11>> JAVELIN THROW";
-
-EVENT";
-
-MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! J\n";
-for Cint i = 1; i <= 4; i++)
+for (int i = 1; i <= 4; i++)
 
 {
 
-if G == 1)
-{
+	if G == 1)
+	{
+		cout << "\n Ist ENTRY:";
+		cin >> choice;
 
-cout <<
+	else if (i == 2)
+	{
+		cout << "\n 2nd ENTRY:";
+		cin >> choice;
 
-"\n Ist ENTRY:
+	else if (i == 3)
+	{
+		cout << "\n 3rd ENTRY:";
+		cin >> choice;
+	else
+	{
+		cout << "\n 4th Entry:";
+		cin >> choice;
+	}
+	switch (choice)
 
-cin >> choice;
+	{
+		case 0:
+			cout << "\n NO EVENT";
+			break;
+		case 1:
+			outfile.
+			outfile
+			outfile.
+			break;
+		case 2:
+			outfile.
+			outfile
+			outfile.
+			break;
+		case 3:
+			outfile.
+			outfile
+			outfile.
+			break;
+		case 4:
+			outfile.
+			outfile
+			outfile.
+			break;
+		case 5:
 
-else if (i ==
-{
 
-cout <<
-
-2)
-
-"\n 2nd ENTRY:
-
-cin >> choice;
-
-else if (i ==
-{
-
-cout <<
-
-3)
-
-"\n 3rd ENTRY:
-
-cin >> choice;
-
-else
-
-cout <<
-
-"\n 4th Entry:
-
-cin >> choice;
-
-switch (choice)
-
-{
-case 0:
-cout <<
-break;
-case 1:
-outfile.
-outfile
-outfile.
-break;
-case 2:
-outfile.
-outfile
-outfile.
-break;
-case 3:
-outfile.
-outfile
-outfile.
-break;
-case 4:
-outfile.
-outfile
-outfile.
-break;
-case 5:
-
-"\n NO EVENT";
 
 open("f_19_100.
 
@@ -1329,15 +1202,15 @@ close();
 
 "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
 
-; << "\n":
+; << "\n";
 
 wow
 
-; << "\n"s
+; << "\n";
 
-; << "\n":
+; << "\n";
 
-; << "\n":
+; << "\n";
 
 csv", ios_base:
 
@@ -1419,7 +1292,7 @@ WITH THE ADMINS\nTO CONTINUE FURTHER\n";
 system("pause”);
 
 Sleep(1000) ;
-else
+else
 
 {
 
