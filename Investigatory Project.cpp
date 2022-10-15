@@ -15,9 +15,9 @@ using namespace std;
 int choice;
 string any;
 
-class user
+class user //Declaring the class user that stores and tracks all the information about the users on this system.
 {
-    public:
+    public: //Changing access specifier to pulic from private to acess the attributes outside the class. 
         int n, div_choice;
         void user_menu();
         void admin_menu() ;
@@ -35,11 +35,12 @@ class user
         void modify();
         void delete_details();
 };
-user u; //global object 'u' for the class user.
+user u; //created an object from class user u that is global to the program.
 
-void user::class_display()
+void user::class_display() //using scope resolution operator to define the function outside the class. 
 {
-    beginning_of_class_display:
+//function that displays the desired data requested by the user.
+	beginning_of_class_display:
         system("CLS");
         Sleep(50) ;
 
@@ -101,7 +102,7 @@ void user::class_display()
             stu_registration(div_choice) ;
         }
     }
-    void user::stu_registration(int)
+    void user::stu_registration(int) //function that enables the user to perform the registration of the sports events.
     {
         system(" CLS ");
         Sleep(50);
