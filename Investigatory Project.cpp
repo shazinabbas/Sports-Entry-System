@@ -929,7 +929,7 @@ cout << "\n 9>> SHOT PUT THROW";
 cout << "\n 10>> DISCUSS THROW";
 cout << "\n 0>> NO EVENT";
 cout << "\n MISATKES (0-10)";
-cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
+cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!! ]\n";
 
 
 for (int i = 1; i <= 4; i+4)
@@ -1093,7 +1093,7 @@ break;
 
 case 9:
 
-outfile.open("f_16_shotput.csv"”
+outfile.open("f_16_shotput.csv"
 
 outfile << chest_no << "," << "\n"s
 outfile.close();
