@@ -1320,7 +1320,7 @@ cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CON
 system("pause");
 Sleep(1000) ;
 
-cout << "\n\nDO YOU WANT TO CONTINUE??";
+cout << "\nDO YOU WANT TO CONTINUE??";
 cout << "\nENTER '1' TO CONTINUE”;
 cout << "\nENTER '2' TO ENTER ONCE AGAIN":
 
@@ -1812,9 +1812,9 @@ void user::homepage()
 	system("CLS");
 	Sleep(50);
 	cout<< "\n\n\n\n\n\n\t\t\t\t\tCHOOSE ANY OPTION TO LOGIN(1 - 3) \n " ; Sleep(10) ; 
-	cout << "\t\t\t\t\t 1. USER \n "; STeep(10) ;
-	cout << "\t\t\t\t\t 2. ADMIN \n "; STeep(10);
-	cout << "\t\t\t\t\t 3. EXIT \n "s Sleep(10);
+	cout << "\t\t\t\t\t 1. USER \n "; Sleep(f10) ;
+	cout << "\t\t\t\t\t 2. ADMIN \n "; Sleep(10);
+	cout << "\t\t\t\t\t 3. EXIT \n " Sleep(10);
 	cout << "\nENTER YOUR CHOICE(1 - 3) : - ";
 	cin >> choice;
 	switch (choice)
