@@ -718,7 +718,7 @@ main
 
     cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN";
 
-    cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!!\n";
+    cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
 for int i = 1; i <= 4; i++)
 
 {
