@@ -459,7 +459,7 @@ void user::class_display()
 
                 {
 
-            cout << "\n 4th Entry: ;
+            cout << "\n 4th Entry:" ;
             cin >> choice;
 
             switch (choice)
@@ -685,7 +685,7 @@ cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT";
-WITH THE ADMINS\nTO CONTINUE FURTHER\n":
+//WITH THE ADMINS\nTO CONTINUE FURTHER\n":
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
 
 system("PAUSE");
@@ -1027,9 +1027,9 @@ ios_base:
 
 jos_base:
 
-10s_base:
+ios_base:
 
-jios_base:
+jos_base:
 
 :app) ;
 
@@ -1310,7 +1310,7 @@ else
 
 {
 
-cout << "\NTHERE IS SOMETHING ERROR IN YOUR FILE! ";
+cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
@@ -1845,7 +1845,7 @@ void user::homepage()
 void welcome()
 {
     int x;
-    cout << "\t \t | ----------------------------- |"; 
+    cout << "\t \t | ------------------------------ |"; 
     // sleep(5);
     cout << "\n\t | SPORTS ENTRY SYSTEM |"<<endl;
     cout<<"1. Go to main content"<<endl;
