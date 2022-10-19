@@ -734,86 +734,76 @@ main
 
     cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISTAKES";
 
-    cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
+    cout<<"\n\nNOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
 for int i = 1; i <= 4; i++)
-
 {
-if (i == 1)
-{
+	if (i == 1)
+	{
+		cout << "\n lst ENTRY:- ";
+		cin >> choice;
+	}
+	else if (i == 2)
+	{
+		cout << "\n 2nd ENTRY:- ";
+		cin >> choice;
+	}
+	else if (i == 3)
+	{
+		cout << "\n 3rd ENTRY:- ";
+		cin >> choice;
+	}
+	else
+	{
+		cout << "\n 4th Entry:- ";
+		cin >> choice;
+	}
+	switch (choice)
+	{
 
-cout << "\n lst ENTRY:- ";
-cin >> choice;
+	case 0:
 
-}
-else if (i == 2)
+	cout << "\n NO EVENT";
+	break;
 
-{
-cout << "\n 2nd ENTRY:- ";
-cin >> choice;
+	case 1:
 
-}
+	outfile.open("f_12_100.csv", ios_base::app);
+	outfile << chest_no << "," << "\n";
+	outfile.close();
+	break;
 
-else if (i == 3)
+	case 2: na
+	outfile.open("m19_200.csv", ios_base::app);
+	case 2:
 
-{
-cout << "\n 3rd ENTRY:- ";
-cin >> choice;
+	outfile.open("f_12_200.csv", ios_base::app);
+	outfile << chest_no << "," << "\n";
+	outfile.close();
 
-}
-else
-{
+	break;
 
-cout << "\n 4th Entry:- ";
-cin >> choice;
+	case 3:
 
-switch (choice)
+	outfile.open("f_12_400.csv", ios_base::app);
+	outfile << chest_no << "," << "\n";
+	outfile.close();
 
-{
+	break;
 
-case 0:
+	case 4:
 
-cout << "\n NO EVENT";
-break;
+	outfile.open("f_12_longjump.csv");
 
-case 1:
+	outfile << chest_no << "," << "\n";
+	outfile.close();
+	break;
 
-outfile.open("f_12_100.csv", ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close();
-break;
+	default:
 
-case 2: na
-outfile.open("m19_200.csv", ios_base::app);
-case 2:
+	cout << "INVALID";
+	break;
 
-outfile.open("f_12_200.csv", ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close();
-
-break;
-
-case 3:
-
-outfile.open("f_12_400.csv", ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close();
-
-break;
-
-case 4:
-
-outfile.open("f_12_longjump.csv");
-
-outfile << chest_no << "," << "\n";
-outfile.close();
-break;
-
-default:
-
-cout << "INVALID";
-break;
-
-}
+	}
 else if (array[i][8] == "2007" || array[i][8] == "2006")
 
 {
