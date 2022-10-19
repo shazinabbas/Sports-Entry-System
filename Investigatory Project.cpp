@@ -460,7 +460,7 @@ void user::class_display() //using scope resolution operator to define the funct
 
                 {
 
-            cout << "\n 4th Entry: ;
+            cout << "\n 4th Entry:" ;
             cin >> choice;
 
             switch (choice)
@@ -686,7 +686,7 @@ cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT";
-WITH THE ADMINS\nTO CONTINUE FURTHER\n":
+//WITH THE ADMINS\nTO CONTINUE FURTHER\n":
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
 
 system("PAUSE");
@@ -719,7 +719,7 @@ main
 
     cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN";
 
-    cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!!\n";
+    cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
 for int i = 1; i <= 4; i++)
 
 {
@@ -995,7 +995,7 @@ close();
 open("f_16_800.
 << chest_ne <<
 
-"\n\NCHOOSE YOUR ITEMS WISELY WITHOUT ANY
+"\n CHOOSE YOUR ITEMS WISELY WITHOUT ANY
 
 csv", ios_base:
 
@@ -1028,9 +1028,9 @@ ios_base:
 
 jos_base:
 
-10s_base:
+ios_base:
 
-jios_base:
+jos_base:
 
 :app) ;
 
@@ -1121,7 +1121,7 @@ else if (array[i][8] == "2001" || array[i][8] == "2002")
 {
 
 ofstream outfile; ,
-"\n\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
+"\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
 
 cout << "\n 1>> 100 Mtr RACE";
 cout << "\n 2>> 200 Mtr RACE";
@@ -1311,7 +1311,7 @@ else
 
 {
 
-cout << "\NTHERE IS SOMETHING ERROR IN YOUR FILE! ";
+cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
@@ -1383,22 +1383,16 @@ void user::stu_events(string chest_no)
 
     string e_f_12[
 
-    string e_m_14[] = { "100 mMtr","200 Mtr","400 Mtr", "800
-    Mtr", "LONGJUMP", "HIGHJUMP", }
+    string e_m_14[] = { "100 mMtr","200 Mtr","400 Mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP", };
 
-    string e_f_14[] = { "100 mtr","200 Mtr","400 mtr", "800
-    Mtr", "LONGJUMP", "HIGHJUMP" , ye
+    string e_f_14[] = { "100 mtr","200 Mtr","400 mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP" , };
 
-    string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500
-    Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS" };
+    string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500 Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS" };
 
-    string e_f_16[] = { "100 Mtr","200 mtr","400 Mtr","800 mMtr","800 Mtr
-    WALK", "1500 Mtr", ""LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS" };
+    string e_f_16[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 Mtr WALK", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS" };
 
-    string e_m_19[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 Mtr
-    WALK", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS", "JAVELIN" };
-    string e_f_19[] = { "100 mtr","200 Mtr","400 Mtr","800 Mtr", "800 Mtr
-    WALK", "1500 mtr", "LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS", "JAVELIN" };
+    string e_m_19[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 mtr", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS", "JAVELIN" };
+    string e_f_19[] = { "100 mtr","200 Mtr","400 Mtr","800 Mtr", "800 Mtr WALK", "1500 mtr", "LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS", "JAVELIN" };
 
     string flag[50];
     int n = 0;
@@ -1852,7 +1846,7 @@ void user::homepage()
 void welcome()
 {
     int x;
-    cout << "\t \t | ----------------------------- |"; 
+    cout << "\t \t | ------------------------------ |"; 
     // sleep(5);
     cout << "\n\t | SPORTS ENTRY SYSTEM |"<<endl;
     cout<<"1. Go to main content"<<endl;
