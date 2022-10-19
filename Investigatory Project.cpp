@@ -189,7 +189,7 @@ void user::class_display()
         cout << "INVALID CHOICE!! ";
         cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
         cout << "\n>> 1. RETRY";
-        cout << "\n>> 2. CLOSE APPLICATION\n";
+        cout << "\n>> 2. CLOSE THE APPLICATION\n";
         cin >> choice;
         if (choice == 1)
         {
@@ -201,9 +201,9 @@ void user::class_display()
             u.close_app();
         }
         start:
-        system("cls");
-        system("pause");
-        system("cls");
+        system("CLS");
+        system("PAUSE");
+        system("CLS");
         ifstream in(list[div_choice-1]);
         string line, field;
 
@@ -480,7 +480,7 @@ outfile.close();
 break;
 
 case 2:
-outfile.open("m_16_200.csv", jos_base::app);
+outfile.open("m_16_200.csv", ios_base::app);
 outfile << chest_no << "," << "\n";
 outfile.close(Q);
 break;
@@ -541,9 +541,9 @@ break;
 default:
 cout << "INVALID";
 break;
-oVWuVvvwvevwevwevvwer7FeuvwFrTlTtlhlh
 
-. if (array(i][8] == "2001" || array[i][8] == "2002")
+
+if (array(i][8] == "2001" || array[i][8] == "2002")
 
 ofstream outfile;
 
@@ -625,7 +625,7 @@ outfile.close();
 break;
 
 case 2: na
-outfile.open("m19_200.csv", jos_base::app);
+outfile.open("m19_200.csv", ios_base::app);
 
 outfile << chest_no << "," << "\n";
 outfile.closeQ;
