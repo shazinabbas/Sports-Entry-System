@@ -685,9 +685,7 @@ else
 cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT";
-//WITH THE ADMINS\nTO CONTINUE FURTHER\n":
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n":
 
 system("PAUSE");
 Sleep(1000);
@@ -715,11 +713,9 @@ main
 
     cout<<"\n O>> NO EVENT";
 
-    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY";
+    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY DOUBTS";
 
-    cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN";
-
-    cout<<"MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
+    cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
 for int i = 1; i <= 4; i++)
 
 {
@@ -814,7 +810,7 @@ cout<<"\n O>> NO EVENT";
 cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-6)";
 cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n"; .
 
-for Cint i = 1; i <= 4; i++)
+for (int i = 1; i <= 4; i++)
 
 {
 
@@ -840,7 +836,7 @@ else if (i == 3)
 
 cout << "\n 3rd ENTRY:- ";
 cin >> choice;
-jos_base::app);
+ios_base::app);
 
 jos_base: :app);
 
