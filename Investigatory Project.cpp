@@ -1311,7 +1311,7 @@ else
 
 {
 
-cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
+cout << "\nTHERE IS SOME ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
@@ -1371,9 +1371,7 @@ void user::stu_events(string chest_no)
     string f_14[] = {"f_14 100.csv","f_14_200.csv","f_14_400.csv", "f_14_800.csv", "f_14_longjump.csv", "f_14_highjump.csv", };
     string m_16[] = {"m_16_100. csv", "m_16_200. csv", "m_16_400.csv","m_16_800.csv", "m_16_1500.csv","m_16_longjump.csv","m_16_highjump.csv","m_16_shotput.csv", "m_16_discuss.csv"};
     string f_16[] = {"f_16_100.csv","f_16_200.csv", "f_16_400. csv", "f_16_800.csv", "f_16_800walk.csv","f_16_1500.csv", "f_16_longjump.csv","f_16_highjump.csv", "f_16_shotput.csv","f_16_discuss.csv" };
-
-    string m_19[] = {"m_19_100.csv", "m_19_200.csv", "m_19_400.csv", "m_19_800.csv", "m_19_800walk.csv","m_19_1500.csv", "m_19_longjump.csv","m_19_highjump.csv", "m_19_shotput.csv"\"m_19_discuss.csv","m_19_javelin.csv" };
-
+    string m_19[] = {"m_19_100.csv", "m_19_200.csv", "m_19_400.csv", "m_19_800.csv", "m_19_800walk.csv","m_19_1500.csv", "m_19_longjump.csv","m_19_highjump.csv", "m_19_shotput.csv","m_19_discuss.csv","m_19_javelin.csv" };
     string f_19[] = {"f_19_100. csv", "f_19_200.csv", "f_19_400. csv", "f_19_800.csv", "f_19_800walk.csv","£_19_1500. csv", "f_19_longjump.csv","f_19_highjump.csv","f_19_shotput.csv","f_19_discuss.csv","f_19_javelin.csv" };
 
     { "100 mtr","200 Mtr","400 Mtr", "LONGJUMP", "HIGHJUMP" };
@@ -1398,7 +1396,6 @@ void user::stu_events(string chest_no)
     int n = 0;
 
     for (int i = 0; i < 11; i++)
-
     {
     ifstream myfile;
     string ch;
@@ -1680,7 +1677,7 @@ void user::display()
         }
 }
 
-void user::close_app()
+void user::close_app() // function to close the application
 {
 
     char choice;
