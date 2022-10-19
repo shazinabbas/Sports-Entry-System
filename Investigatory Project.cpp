@@ -607,69 +607,69 @@ void user::class_display() //using scope resolution operator to define the funct
             break;
 
             case 1:
-            outfile.open("m_19_100.csv , ios_base: :app) ;
+            outfile.open("m_19_100.csv" , ios_base: :app) ;
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
 
             case 2:
-            outfile.open("m19_200.csv", jos_base::app);
+            outfile.open("m19_200.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.closeQ;
             break;         
 
             case 3:
-            outfile.open("m19_400.csv", jos_base::app);
+            outfile.open("m19_400.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 4:
-            outfile.open("m19_400.csv", jos_base::app);
+            outfile.open("m19_400.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 5:
-            outfile.open("m19_800.csv", jos_base::app);
+            outfile.open("m19_800.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 6:
-            outfile.open("m19_1500.csv", jos_base::app);
+            outfile.open("m19_1500.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 7:
-            outfile.open("m19_longjump.csv", jos_base::app);
+            outfile.open("m19_longjump.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 8:
-            outfile.open("m19_highjump.csv", jos_base::app);
+            outfile.open("m19_highjump.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 9:
-            outfile.open("m19_shotput.csv", jos_base::app);
+            outfile.open("m19_shotput.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 10:
-            outfile.open("m19_discuss.csv", jos_base::app);
+            outfile.open("m19_discuss.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
             break;
             case 11:
-            outfile.open("m19_javelin.csv", jos_base::app);
+            outfile.open("m19_javelin.csv", ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.close();
@@ -682,10 +682,10 @@ void user::class_display() //using scope resolution operator to define the funct
 }
 else
 {
-cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
+cout << "\nTHERE IS SOME ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n":
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS TO CONTINUE FURTHER\n":
 
 system("PAUSE");
 Sleep(1000);
@@ -713,7 +713,7 @@ main
 
     cout<<"\n O>> NO EVENT";
 
-    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY DOUBTS";
+    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISTAKES";
 
     cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
 for int i = 1; i <= 4; i++)
@@ -838,7 +838,7 @@ cout << "\n 3rd ENTRY:- ";
 cin >> choice;
 ios_base::app);
 
-jos_base: :app);
+ios_base: :app);
 
 }
 
@@ -865,7 +865,7 @@ outfile.close();
 break;
 
 case 2:
-outfile.open("f_14_200.csv", jios_base::app);
+outfile.open("f_14_200.csv", ios_base::app);
 outfile << chest_no << "," << "\n";
 outfile.close();
 
@@ -879,7 +879,7 @@ outfile.close(Q);
 break;
 
 case 4:
-outfile.open("f_14_800.csv", jos_base: :app);
+outfile.open("f_14_800.csv", ios_base: :app);
 
 outfile << chest_no << "," << "\n";
 outfile.closeQ);
@@ -989,11 +989,11 @@ open("f_16_400.
 close();
 
 open("f_16_800.
-<< chest_ne <<
+<< chest_no <<
 
 "\n CHOOSE YOUR ITEMS WISELY WITHOUT ANY
 
-csv", ios_base:
+csv", ios_base:app) ;
 
 ; << "\n"s
 
@@ -1013,7 +1013,7 @@ mom ee "Nn":
 
 rapp);
 
-app) ;
+
 
 :app);
 
@@ -1254,32 +1254,27 @@ outfile << chest_no << "," << "\n";
 outfile.close();
 break;
 case 7:
-outfile.open("f_19_longjump.csv”,
-jos_base:: app);
+outfile.open("f_19_longjump.csv”, ios_base::app);
 outfile << chest_no << "," << "\n";
 outfile.close(Q);
 break;
 case 8:
-outfile.open("f_19_highjump.csv”,
-jos_base::app);
+outfile.open("f_19_highjump.csv”, ios_base::app);
 outfile << chest_no << "," << "\n";
 outfile.close();
 break;
 case 9:
-outfile.open("f_19_shotput.csv",
-jos_base: :app) ;
+outfile.open("f_19_shotput.csv", ios_base::app) ;
 outfile << chest_no << "," << "\n";
 outfile.closeQ;
 break;
 case 10:
-outfile.open("f_19_discuss.csv",
-jos_base::app);
+outfile.open("f_19_discuss.csv", ios_base::app);
 outfile << chest_no << "," << "\n";
 outfile.close();
 break;
 case 11:
-outfile.open("f_19_javelin.csv”,
-jos_base::app);
+outfile.open("f_19_javelin.csv”, ios_base::app);
 
 outfile << chest_no << "," << "\n";
 outfile.closeQ;
@@ -1293,11 +1288,11 @@ break;
 else
 {
 
-cout << "\nTHERE IS SOMETHING ERROR IN YOUR FILE! ";
+cout << "\nTHERE IS SOME ERROR IN YOUR FILE! ";
 
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n"; 
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS TO CONTINUE FURTHER\n"; 
 
 
 system("pause”);
@@ -1310,7 +1305,7 @@ else
 cout << "\nTHERE IS SOME ERROR IN YOUR FILE! ";
 cout << list[div_choice - 1];
 
-cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS\nTO CONTINUE FURTHER\n";
+cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS TO CONTINUE FURTHER\n";
 
 
 system("pause");
@@ -1343,7 +1338,6 @@ else if (choice == 2)
 
 i--;
 
-//goto star;
 }
 Sleep(500);
 
