@@ -476,7 +476,7 @@ void user::class_display() //using scope resolution operator to define the funct
                 break;
 
             case 2:
-            outfile.open("m_16_200.csv", jos_base::app);
+            outfile.open("m_16_200.csv", ios_base::app);
             outfile << chest_no << "," << "\n";
             outfile.close(Q);
             break;
@@ -501,30 +501,30 @@ void user::class_display() //using scope resolution operator to define the funct
             break;
 
             case 6:
-            outfile.open("m_16_longjump.csv",jos_base:: app);
+            outfile.open("m_16_longjump.csv",ios_base:: app);
 
             outfile << chest_no << "," << "\n";
             outfile.closeQ;
             break;
 
             case 7:
-            outfile.open("m_16_highjump.csv",jos_base::app);
+            outfile.open("m_16_highjump.csv",ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.closeQ;
             break;
 
             case 8:
-            outfile.open("m_16_shotput.csv",jos_base::app);
+            outfile.open("m_16_shotput.csv",ios_base::app);
 
             outfile << chest_no << "," << "\n";
             outfile.closeQ;
             break;
             case 9:
-            outfile.open("m_16_discuss.csv", jos_base::app);
+            outfile.open("m_16_discuss.csv", ios_base::app);
 
            
-            outfile.open("m_16_discuss.csv",jos_base::app);
+            outfile.open("m_16_discuss.csv",ios_base::app);
 
             outfile << chest_no << ",".<< "\n";
             outfile.close();
