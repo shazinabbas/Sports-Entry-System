@@ -183,8 +183,12 @@ void user::class_display() //using scope resolution operator to define the funct
         {
         cout << "INVALID CHOICE!! ";
         cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
+        cout << "\n>> 1. RETRY";
+        cout << "\n>> 2. CLOSE THE APPLICATION\n";
+
         cout << "\n>> 1. PLEASE RETRY";
         cout << "\n>> 2. CLOSE APPLICATION\n";
+ 
         cin >> choice;
         if (choice == 1)
         {
@@ -196,9 +200,9 @@ void user::class_display() //using scope resolution operator to define the funct
             u.close_app();
         }
         start:
-        system("cls");
-        system("pause");
-        system("cls");
+        system("CLS");
+        system("PAUSE");
+        system("CLS");
         ifstream in(list[div_choice-1]);
         string line, field;
 
@@ -475,11 +479,16 @@ void user::class_display() //using scope resolution operator to define the funct
                 outfile.close();
                 break;
 
+case 2:
+outfile.open("m_16_200.csv", ios_base::app);
+outfile << chest_no << "," << "\n";
+outfile.close(Q);
+break;
             case 2:
             outfile.open("m_16_200.csv", ios_base::app);
             outfile << chest_no << "," << "\n";
             outfile.close(Q);
-            break;
+            break; 
 
             case 3:
             outfile.open("m_16_400.csv", ios_base::app);
@@ -537,6 +546,16 @@ void user::class_display() //using scope resolution operator to define the funct
             ofstream outfile;
 
             cout << "\n\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
+
+outfile << chest_no << ",".<< "\n";
+outfile.close();
+break;
+default:
+cout << "INVALID";
+break;
+
+
+if (array(i][8] == "2001" || array[i][8] == "2002")
 
             cout << "\n 1>> 100 Mtr RACE";
 
@@ -763,6 +782,8 @@ outfile << chest_no << "," << "\n";
 outfile.close();
 break;
 
+case 2: na
+outfile.open("m19_200.csv", ios_base::app);
 case 2:
 
 outfile.open("f_12_200.csv", ios_base::app);
