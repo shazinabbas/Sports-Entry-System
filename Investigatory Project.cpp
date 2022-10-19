@@ -1704,7 +1704,7 @@ void user::close_app() // function to close the application
 
 }
 "
-void user::user_menu()
+void user::user_menu() // User menu function
 {
     int choice;
     hstart:
@@ -1797,7 +1797,7 @@ void user::user_menu()
     
 }
 
-void user::homepage()
+void user::homepage() //Home page
 {
 	int choice;
 	system("CLS");
@@ -1840,7 +1840,7 @@ void user::homepage()
     }
 }
 
-void welcome()
+void welcome() // Welcome page
 {
     int x;
     cout << "\t \t | ------------------------------ |"; 
@@ -1856,7 +1856,7 @@ void welcome()
         exit(1);
     }
 }
-int main()
+int main() //Main function
 {            
     welcome();
     return 0;
