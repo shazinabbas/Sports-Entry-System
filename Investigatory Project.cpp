@@ -479,11 +479,6 @@ void user::class_display() //using scope resolution operator to define the funct
                 outfile.close();
                 break;
 
-case 2:
-outfile.open("m_16_200.csv", ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close(Q);
-break;
             case 2:
             outfile.open("m_16_200.csv", ios_base::app);
             outfile << chest_no << "," << "\n";
@@ -511,8 +506,7 @@ break;
 
             case 6:
             outfile.open("m_16_longjump.csv",ios_base:: app);
-
-            outfile << chest_no << "," << "\n";
+	    outfile << chest_no << "," << "\n";
             outfile.closeQ;
             break;
 
@@ -780,29 +774,23 @@ for int i = 1; i <= 4; i++)
 		break;
 
 		case 3:
-
-		outfile.open("f_12_400.csv", ios_base::app);
-		outfile << chest_no << "," << "\n";
-		outfile.close();
-
-		break;
+			outfile.open("f_12_400.csv", ios_base::app);
+			outfile << chest_no << "," << "\n";
+			outfile.close();
+			break;
 
 		case 4:
-
-		outfile.open("f_12_longjump.csv");
-
-		outfile << chest_no << "," << "\n";
-		outfile.close();
-		break;
+			outfile.open("f_12_longjump.csv");
+			outfile << chest_no << "," << "\n";
+			outfile.close();
+			break;
 
 		default:
-
-		cout << "INVALID";
-		break;
+			cout << "INVALID";
+			break;
 
 	}
 else if (array[i][8] == "2007" || array[i][8] == "2006")
-
 {
 
 ofstream outfile;
