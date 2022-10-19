@@ -556,6 +556,7 @@ break;
 
 
 if (array(i][8] == "2001" || array[i][8] == "2002")
+    {
 
             cout << "\n 1>> 100 Mtr RACE";
 
@@ -759,49 +760,45 @@ for int i = 1; i <= 4; i++)
 	}
 	switch (choice)
 	{
+		case 0:
+			cout << "\n NO EVENT";
+			break;
 
-	case 0:
+		case 1:
+			outfile.open("f_12_100.csv", ios_base::app);
+			outfile << chest_no << "," << "\n";
+			outfile.close();
+			break;
+		case 2: na
+		outfile.open("m19_200.csv", ios_base::app);
+		case 2:
 
-	cout << "\n NO EVENT";
-	break;
+		outfile.open("f_12_200.csv", ios_base::app);
+		outfile << chest_no << "," << "\n";
+		outfile.close();
 
-	case 1:
+		break;
 
-	outfile.open("f_12_100.csv", ios_base::app);
-	outfile << chest_no << "," << "\n";
-	outfile.close();
-	break;
+		case 3:
 
-	case 2: na
-	outfile.open("m19_200.csv", ios_base::app);
-	case 2:
+		outfile.open("f_12_400.csv", ios_base::app);
+		outfile << chest_no << "," << "\n";
+		outfile.close();
 
-	outfile.open("f_12_200.csv", ios_base::app);
-	outfile << chest_no << "," << "\n";
-	outfile.close();
+		break;
 
-	break;
+		case 4:
 
-	case 3:
+		outfile.open("f_12_longjump.csv");
 
-	outfile.open("f_12_400.csv", ios_base::app);
-	outfile << chest_no << "," << "\n";
-	outfile.close();
+		outfile << chest_no << "," << "\n";
+		outfile.close();
+		break;
 
-	break;
+		default:
 
-	case 4:
-
-	outfile.open("f_12_longjump.csv");
-
-	outfile << chest_no << "," << "\n";
-	outfile.close();
-	break;
-
-	default:
-
-	cout << "INVALID";
-	break;
+		cout << "INVALID";
+		break;
 
 	}
 else if (array[i][8] == "2007" || array[i][8] == "2006")
