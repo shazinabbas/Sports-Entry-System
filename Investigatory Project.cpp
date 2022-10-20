@@ -950,7 +950,7 @@ cout << "\n 8>> HIGH JUMP";
 cout << "\n 9>> SHOT PUT THROW";
 cout << "\n 10>> DISCUSS THROW";
 cout << "\n 0>> NO EVENT";
-cout << "\n MISATKES (0-10)";
+cout<<"\n\nCHOOSE YOUR ITEMS WITHOUT ANY MISATKES (0-10)";
 cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!! ]\n";
 
 
@@ -977,27 +977,27 @@ for (int i = 1; i <= 4; i+4)
 
 switch (choice)
 {
-case 0:
-cout <<
-break;
-case 1:
-outfile.
-outfile
-outfile.
-break;
-case 2:
-outfile.
-outfile
-outfile.
-break;
-case 3:
-outfile.
-outfile
-outfile.
-break;
-case 4:
-outfile.
-outfile
+	case 0:
+		outfile.
+		cout <<
+		break;
+	case 1:
+	outfile
+	outfile.
+	break;
+	case 2:
+	outfile.
+	outfile
+	outfile.
+	break;
+	case 3:
+	outfile.
+	outfile
+	outfile.
+	break;
+	case 4:
+	outfile.
+	outfile
 
 "\n NO EVENT";
 
@@ -1151,9 +1151,7 @@ cout << "\n 4>> 800 Mtr RACE";
 cout << "\n 5>> 800 Mtr WALKING RACE";
 cout << "\n 6>> 1500 Mtr RACE";
 cout << "\n 7>> LONG JUMP";
-cout << "\n 8>> HIGH JUMP";
-//cout << "\n
-	
+cout << "\n 8>> HIGH JUMP";	
 cout<< "\n 9>> SHOT PUT";
 cout<< "\n 10>> DISCUSS THROW";
 cout<< "\n 11>> JAVELIN THROW";
