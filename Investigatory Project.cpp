@@ -617,85 +617,85 @@ if (array(i][8] == "2001" || array[i][8] == "2002")
 			cout << "\n 4th Entry:-";
 		    	cin >> choice;
 		}
-            switch (choice)
-            {
+		switch (choice)
+		{
 
-            case 0:
-            cout << " NO EVENT\n";
-            break;
+		    case 0:
+		    cout << " NO EVENT\n";
+		    break;
 
-            case 1:
-            outfile.open("m_19_100.csv" , ios_base: :app) ;
+		    case 1:
+		    outfile.open("m_19_100.csv" , ios_base: :app) ;
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
 
-            case 2:
-            outfile.open("m19_200.csv", ios_base::app);
+		    case 2:
+		    outfile.open("m19_200.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.closeQ;
-            break;         
+		    outfile << chest_no << "," << "\n";
+		    outfile.closeQ;
+		    break;         
 
-            case 3:
-            outfile.open("m19_400.csv", ios_base::app);
+		    case 3:
+		    outfile.open("m19_400.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 4:
-            outfile.open("m19_400.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 4:
+		    outfile.open("m19_400.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 5:
-            outfile.open("m19_800.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 5:
+		    outfile.open("m19_800.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 6:
-            outfile.open("m19_1500.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 6:
+		    outfile.open("m19_1500.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 7:
-            outfile.open("m19_longjump.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 7:
+		    outfile.open("m19_longjump.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 8:
-            outfile.open("m19_highjump.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 8:
+		    outfile.open("m19_highjump.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 9:
-            outfile.open("m19_shotput.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 9:
+		    outfile.open("m19_shotput.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 10:
-            outfile.open("m19_discuss.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 10:
+		    outfile.open("m19_discuss.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            case 11:
-            outfile.open("m19_javelin.csv", ios_base::app);
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    case 11:
+		    outfile.open("m19_javelin.csv", ios_base::app);
 
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
-            default :
-            cout <<"INVALID";
-            break;
-          }
+		    outfile << chest_no << "," << "\n";
+		    outfile.close();
+		    break;
+		    default :
+		    cout <<"INVALID";
+		    break;
+		  }
      }
 }
 else
