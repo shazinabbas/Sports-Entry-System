@@ -1379,40 +1379,38 @@ void user::stu_events(string chest_no)
 
     string flag[50];
     int n = 0;
-
-    for (int i = 0; i < 11; i++)
-    {
-    ifstream myfile;
-    string ch;
-    myfile.open(m_19[7]);
-    while (myfile.goodQ)
-    {
-
-    getline(myfile, ch, ',');
-    if (chest_no == ch)
-
-    flag[n] = e_m_19[i];
-    n+}
-    }
-    : myfile.close();
+	for (int i = 0; i < 11; i++)
+    	{
+	    ifstream myfile;
+	    string ch;
+	    myfile.open(m_19[i]);
+	    while (myfile.goodQ)
+	    {
+		getline(myfile, ch, ',');
+	    	if (chest_no == ch)
+		{
+	   		flag[n] = e_m_19[i];
+	    		n++;
+		}
+	    }
+	    myfile.close();
+	}
 
     for (int 7 = 0; 1 < 11; i++)
-    ifstream myfile;
-    string ch;
-    myfile.open(f_19[i]);
-    while (myfile.good())
-    i
-
-    getline(myfile, ch, ',');
-    if (chest_no == ch)
-
-    flag[n] = e_f_19[i];
-    n++;
-
-    }
-
-    }
-    myfile.closeQ;
+    {
+	    ifstream myfile;
+	    string ch;
+	    myfile.open(f_19[i]);
+	    while (myfile.good())
+	    {
+		    getline(myfile, ch, ',');
+		    if (chest_no == ch)
+		    {
+		    	flag[n] = e_f_19[i];
+		    	n++;
+		    }
+	    }
+	    myfile.closeQ;
     }
 
     for (int i = 0; i < 9; i++)
