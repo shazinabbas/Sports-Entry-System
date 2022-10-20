@@ -1352,9 +1352,8 @@ Sleep(200) ;
 "
 void user::stu_events(string chest_no)
 {
-
-    string m_12[] = {"m_12_100.csv","m_12_200.csv", "m_12_400.csv","m_12_longjump.csv", "m_12_highjump.csv" };
-    string f_12[] = {"f_12_100.csv","f_12_200.csv","f_12_400.csv","f_12_longjump.csv" };
+	string m_12[] = {"m_12_100.csv","m_12_200.csv", "m_12_400.csv","m_12_longjump.csv", "m_12_highjump.csv" };
+	string f_12[] = {"f_12_100.csv","f_12_200.csv","f_12_400.csv","f_12_longjump.csv" };
     string m_14[] = {"m_14_100. csv", "m_14_200.csv","m_14_400.csv", "m_14_800.csv", "m_14_longjump.csv","m_14_highjump.csv", };
     string f_14[] = {"f_14 100.csv","f_14_200.csv","f_14_400.csv", "f_14_800.csv", "f_14_longjump.csv", "f_14_highjump.csv", };
     string m_16[] = {"m_16_100. csv", "m_16_200. csv", "m_16_400.csv","m_16_800.csv", "m_16_1500.csv","m_16_longjump.csv","m_16_highjump.csv","m_16_shotput.csv", "m_16_discuss.csv"};
@@ -1362,12 +1361,10 @@ void user::stu_events(string chest_no)
     string m_19[] = {"m_19_100.csv", "m_19_200.csv", "m_19_400.csv", "m_19_800.csv", "m_19_800walk.csv","m_19_1500.csv", "m_19_longjump.csv","m_19_highjump.csv", "m_19_shotput.csv","m_19_discuss.csv","m_19_javelin.csv" };
     string f_19[] = {"f_19_100. csv", "f_19_200.csv", "f_19_400. csv", "f_19_800.csv", "f_19_800walk.csv","£_19_1500. csv", "f_19_longjump.csv","f_19_highjump.csv","f_19_shotput.csv","f_19_discuss.csv","f_19_javelin.csv" };
 
-    { "100 mtr","200 Mtr","400 Mtr", "LONGJUMP", "HIGHJUMP" };
 
-    string e_m_12[] =
-    }] = { "100 mtr","200 Mtr","400 mtr", "LONGJUMP" };
+	string e_m_12[] = { "100 mtr","200 Mtr","400 Mtr", "LONGJUMP", "HIGHJUMP" };
+    string e_f_12[] = { "100 mtr","200 Mtr","400 mtr", "LONGJUMP" };
 
-    string e_f_12[
 
     string e_m_14[] = { "100 mMtr","200 Mtr","400 Mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP", };
 
