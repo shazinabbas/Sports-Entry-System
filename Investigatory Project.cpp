@@ -1564,18 +1564,21 @@ while (myfile.good())
 
     {
 
-    cout << flag(j] <<" 5, "5
+    cout << flag(j] <<" 5, "5";
 
     //outfile << flag[j] << 4
 
     }
     //outfile << "\n";
     //outfile.closeQ ;
+		 
 
+		 
     cout << endl;
 
 }
 void palin(num) {
+
 	int num, rev=0, rem, temp;
     cout<<"Enter the Number: ";
     cin>>num;
