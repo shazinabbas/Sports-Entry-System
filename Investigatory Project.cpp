@@ -582,66 +582,41 @@ if (array(i][8] == "2001" || array[i][8] == "2002")
     {
 
             cout << "\n 1>> 100 Mtr RACE";
-
             cout << "\n 2>> 200 Mtr RACE";
-
             cout << "\n 3>> 400 Mtr RACE";
-
             cout << "\n 4>> 800 Mtr RACE";
-
             cout << "\n 5>> 800 Mtr WALKING RACE";
-
             cout << "\n 6>> 1500 Mtr RACE”;
-
             cout << "\n 7>> LONG JUMP";
-
             cout << "\n 8>> HIGH JUMP";
-
             cout << "\n 9>> SHOT PUT";
-
             cout << "\n 10>> DISCUSS THROW";
-
             cout << "\n 11>> JAVELIN THROW";
-
-            cout << "\n 0>> NO EVENT";
-            cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
-
-            MISATKES (0-11)";
-            cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
-            
+            cout << "\n 0>> NO EVENT";            
             cout << "\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-11)";
             cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
-
-            for (int i = 1; 7 <= 4; i++)
-
-            {
-
-            if (i==1)
-            {
-            cout << "\n Ist ENTRY:- ";
-            cin >> choice;
-
-            }
-            else if (i == 2)
-
-            cout << "\n 2nd ENTRY:- ";
-            cin >> choice;
-
-            }
-            else if (i == 3)
-
-            : cout << "\n 3rd ENTRY:- ";
-            cin >> choice;
-
-            }
-            else
-	    {
-            {
-
-            cout << "\n 4th Entry:-";
-            cin >> choice;
-
-            }
+	for (int i = 1; 7 <= 4; i++)
+	{
+		if (i==1)
+		{
+			cout << "\n Ist ENTRY:- ";
+		    	cin >> choice;
+		}
+		else if (i == 2)
+		{
+		    cout << "\n 2nd ENTRY:- ";
+		    cin >> choice;
+		}
+		else if (i == 3)
+		{
+			cout << "\n 3rd ENTRY:- ";
+		    	cin >> choice;
+		}
+		else
+		{
+			cout << "\n 4th Entry:-";
+		    	cin >> choice;
+		}
             switch (choice)
             {
 
