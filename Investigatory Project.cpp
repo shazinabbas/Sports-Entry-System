@@ -1803,15 +1803,15 @@ void user::user_menu() // User menu function
 
 void user::homepage() //Home page
 {
-	int choice;
+	int choice; //variable declaration 
 	system("CLS");
-	Sleep(50);
-	cout<< "\n\n\n\n\n\n\t\t\t\t\tCHOOSE ANY OPTION TO LOGIN(1 - 3) \n " ; Sleep(10) ; 
-	cout << "\t\t\t\t\t 1. USER \n "; Sleep(f10) ;
+	Sleep(50); //sleep function that stops the execution for n seconds 
+	cout<< "\n\n\n\n\n\n\t\t\t\t\tCHOOSE ANY OPTION TO LOGIN(1 - 3) \n " ; Sleep(10) ; //menu for the execution of program
+	cout << "\t\t\t\t\t 1. USER \n "; Sleep(f10) ; //adding sleep function after every line so that there is a break after every line.
 	cout << "\t\t\t\t\t 2. ADMIN \n "; Sleep(10);
 	cout << "\t\t\t\t\t 3. EXIT \n " Sleep(10);
 	cout << "\nENTER YOUR CHOICE(1 - 3) : - ";
-	cin >> choice;
+	cin >> choice; //taking input for choice variable
 	switch (choice)
 	{
 		case 1:
