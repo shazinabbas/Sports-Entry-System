@@ -469,32 +469,31 @@ int main() {
                 cout << "\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n";
                 for (int i = 1; i <= 4; i++)
                 {
-                if G == 1)
+                if (i == 1)
                 {
-                cout << "\n 1st ENTRY:- ";
-                cin >> choice;
+                	cout << "\n 1st ENTRY:- ";
+                	cin >> choice;
 
                 }
                 else if (i == 2)
                 {
 
-                cout << "\n 2nd ENTRY:- ";
-                cin >> choice;
+                	cout << "\n 2nd ENTRY:- ";
+                	cin >> choice;
 
                 }
                 else if (i == 3)
 
-                cout << "\n 3rd ENTRY:- ";
-                cin >> choice;
+                	cout << "\n 3rd ENTRY:- ";
+                	cin >> choice;
 
                 }
 
                 else
 
                 {
-
-            cout << "\n 4th Entry:" ;
-            cin >> choice;
+			cout << "\n 4th Entry:" ;
+            		cin >> choice;
 
             switch (choice)
 
@@ -509,78 +508,60 @@ int main() {
                 break;
 
             case 2:
-            outfile.open("m_16_200.csv", ios_base::app);
-            outfile << chest_no << "," << "\n";
-            outfile.close(Q);
-            break; 
+            	outfile.open("m_16_200.csv", ios_base::app);
+            	outfile << chest_no << "," << "\n";
+            	outfile.close(Q);
+            	break; 
 
             case 3:
-            outfile.open("m_16_400.csv", ios_base::app);
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
+            	outfile.open("m_16_400.csv", ios_base::app);
+            	outfile << chest_no << "," << "\n";
+            	outfile.close();
+            	break;
 
             case 4:
 
-            outfile.open("m_16_800.csv", ios_base::app);
-            outfile << chest_no << "," << "\n";
-            outfile.close();
-            break;
+            	outfile.open("m_16_800.csv", ios_base::app);
+            	outfile << chest_no << "," << "\n";
+            	outfile.close();
+            	break;
 
             case 5:
-            outfile.open("m_16_1500.csv", ios_base::app);
-            outfile << chest_no << "," << "\n";
-            outfile.closeQ;
-            break;
+            	outfile.open("m_16_1500.csv", ios_base::app);
+            	outfile << chest_no << "," << "\n";
+            	outfile.closeQ;
+            	break;
 
             case 6:
-            outfile.open("m_16_longjump.csv",ios_base:: app);
-	    outfile << chest_no << "," << "\n";
-            outfile.closeQ;
-            break;
+            	outfile.open("m_16_longjump.csv",ios_base:: app);
+	    	outfile << chest_no << "," << "\n";
+            	outfile.closeQ;
+            	break;
 
             case 7:
-            outfile.open("m_16_highjump.csv",ios_base::app);
-
-            outfile << chest_no << "," << "\n";
-            outfile.closeQ;
-            break;
+            	outfile.open("m_16_highjump.csv",ios_base::app);
+		outfile << chest_no << "," << "\n";
+            	outfile.closeQ;
+            	break;
 
             case 8:
-            outfile.open("m_16_shotput.csv",ios_base::app);
-
-            outfile << chest_no << "," << "\n";
-            outfile.closeQ;
-            break;
+            	outfile.open("m_16_shotput.csv",ios_base::app);
+		outfile << chest_no << "," << "\n";
+            	outfile.closeQ;
+            	break;
             case 9:
-            outfile.open("m_16_discuss.csv", ios_base::app);
-
-           
-            outfile.open("m_16_discuss.csv",ios_base::app);
-
-            outfile << chest_no << ",".<< "\n";
-            outfile.close();
-            break;
+            	outfile.open("m_16_discuss.csv", ios_base::app);
+		outfile << chest_no << ",".<< "\n";
+            	outfile.close();
+            	break;
             default:
-            cout << "INVALID";
+            	cout << "INVALID";
             break;
-            if (array(i][8] == "2001" || array[i][8] == "2002")
-
-            ofstream outfile;
-
-            cout << "\n\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
-
-outfile << chest_no << ",".<< "\n";
-outfile.close();
-break;
-default:
-cout << "INVALID";
-break;
-
-
-if (array(i][8] == "2001" || array[i][8] == "2002")
-    {
-
+		}
+	    }
+	    }
+else if (array[i][8] == "2001" || array[i][8] == "2002")
+{
             cout << "\n 1>> 100 Mtr RACE";
             cout << "\n 2>> 200 Mtr RACE";
             cout << "\n 3>> 400 Mtr RACE";
