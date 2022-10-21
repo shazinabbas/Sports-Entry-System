@@ -139,9 +139,9 @@ int main() {
         string chest_no;
         string list[] ={"5A.csv", "5B.csv","5C.csv","5D.csv","6A.csv","6B.csv","6C.csv", "6D.csv","7A.csv","7B.csv","7C.csv","7D.csv", "8A.csv", "8B.csv", "8C.csv","8D.csv","9A.csv", "9B. csv","9C.csv","10A.csv","10B.csv","10C.csv","11.csv","12.csv"};
         string div[] = {"5A", "5B", "5C", "5D", "6A", "6B","6c","6D", "7A","7B","7C", "7D", "8A", "8B","8C","8D", "9A","9B","9C","10A","10B","10C","11","12" };
-        cout <<endl<<endl<< "CLASS ";
+        cout<<endl<<endl<< "CLASS ";
         Sleep(10) ;
-        cout << div[div_choice-1] << endl << endl << "BOYS" << endl << endl;
+        cout<< div[div_choice-1] << endl << endl << "BOYS" << endl << endl;
         Sleep(10) ;
         myfile.open(list[div_choice-1]) ;
         while (myfile.good())
@@ -164,7 +164,7 @@ int main() {
             }
         }
         myfile.close();
-        cout << endl << "GIRLS" << endl << endl;
+        cout<< endl << "GIRLS" << endl << endl;
         myfile.open(list[div_choice-1]);
         while(myfile.good())
         {
