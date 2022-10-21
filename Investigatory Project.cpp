@@ -80,7 +80,7 @@ void user::class_display() //using scope resolution operator to define the funct
         {
             cout << "INVALID CHOICE!! ";
             cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-            cout << "\n>> 1. RETRY";
+            cout << "\n>> 1. PLEASE RETRY!!";
             cout << "\n>> 2. CLOSE APPLICATION\n";
             cin >> choice;
             if (choice == 1)
@@ -212,10 +212,10 @@ int main() {
         {
         cout << "INVALID CHOICE!! ";
         cout << "\nCHOOSE THE OPTIONS GIVEN BELOW(1-2)";
-        cout << "\n>> 1. RETRY";
+        cout << "\n>> 1. RETRY!";
         cout << "\n>> 2. CLOSE THE APPLICATION\n";
 
-        cout << "\n>> 1. PLEASE RETRY";
+        cout << "\n>> 1. PLEASE RETRY!";
         cout << "\n>> 2. CLOSE APPLICATION\n";
  
         cin >> choice;
@@ -712,7 +712,7 @@ main
 
     cout<<"\n O>> NO EVENT";
 
-    cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISTAKES";
+    cout<<"\n\nPLEASE CHOOSE YOUR ITEMS WISELY WITHOUT ANY MISTAKES";
 
     cout<<"\n\nNOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
 for (int i = 1; i <= 4; i++)
@@ -1194,12 +1194,12 @@ void user::stu_events(string chest_no)
 
     string e_f_14[] = { "100 Mtr","200 Mtr","400 mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP" , };
 
-    string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500 Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS" };
+    string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500 Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS THROW" };
 
-    string e_f_16[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 Mtr WALK", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS" };
+    string e_f_16[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 Mtr WALK", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS THROW" };
 
-    string e_m_19[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 mtr", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS", "JAVELIN" };
-    string e_f_19[] = { "100 mtr","200 Mtr","400 Mtr","800 Mtr", "800 Mtr WALK", "1500 mtr", "LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS", "JAVELIN" };
+    string e_m_19[] = { "100 Mtr","200 mtr","400 Mtr","800 Mtr","800 mtr", "1500 Mtr", "LONGJUMP", "HIGHJUMP","SHOTPUT", "DISCUSS THROW", "JAVELIN" };
+    string e_f_19[] = { "100 mtr","200 Mtr","400 Mtr","800 Mtr", "800 Mtr WALK", "1500 mtr", "LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS THROW", "JAVELIN" };
 
     string flag[50];
     int n = 0;
