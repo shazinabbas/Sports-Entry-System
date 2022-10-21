@@ -715,7 +715,7 @@ main
     cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISTAKES";
 
     cout<<"\n\nNOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
-for int i = 1; i <= 4; i++)
+for (int i = 1; i <= 4; i++)
 {
 	if (i == 1)
 	{
@@ -912,7 +912,7 @@ cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!! ]\n";
 
 for (int i = 1; i <= 4; i+4)
 {
-	if G == 1)
+	if (G == 1)
 {
 		cout << "\n Ist ENTRY:";
 		cin >> choice;
@@ -1115,7 +1115,7 @@ cout << list[div_choice - 1];
 cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS TO CONTINUE FURTHER\n"; 
 
 
-system("pause”);
+system("PAUSE”);
 
 Sleep(1000) ;
 }
@@ -1190,9 +1190,9 @@ void user::stu_events(string chest_no)
     string e_f_12[] = { "100 mtr","200 Mtr","400 mtr", "LONGJUMP" };
 
 
-    string e_m_14[] = { "100 mMtr","200 Mtr","400 Mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP", };
+    string e_m_14[] = { "100 Mtr","200 Mtr","400 Mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP", };
 
-    string e_f_14[] = { "100 mtr","200 Mtr","400 mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP" , };
+    string e_f_14[] = { "100 Mtr","200 Mtr","400 mtr", "800 Mtr", "LONGJUMP", "HIGHJUMP" , };
 
     string e_m_16[] = { "100 Mtr","200 Mtr","400 mtr","800 mtr", "1500 Mtr.","LONGJUMP", "HIGHJUMP", "SHOTPUT", "DISCUSS" };
 
