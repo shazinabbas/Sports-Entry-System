@@ -715,7 +715,7 @@ main
     cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISTAKES";
 
     cout<<"\n\nNOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!\n";
-for int i = 1; i <= 4; i++)
+for (int i = 1; i <= 4; i++)
 {
 	if (i == 1)
 	{
@@ -912,7 +912,7 @@ cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!! ]\n";
 
 for (int i = 1; i <= 4; i+4)
 {
-	if G == 1)
+	if (G == 1)
 {
 		cout << "\n Ist ENTRY:";
 		cin >> choice;
