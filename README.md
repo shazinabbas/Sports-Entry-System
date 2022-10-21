@@ -66,3 +66,8 @@ You will receive a review, comment, and approval by a member of the Pusher team 
 A management system which can be used in the schools and colleges for registering and managing the details during sports fest. Hacktoberfest-accepted.
 
 This code was scanned from a printed file. Therefore, debugging has to be done. Anyone is welcome to help me!!!
+
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/shazinabbas/Sports-Entry-System/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=shazinabbas/Sports-Entry-System"/>
+</a>
