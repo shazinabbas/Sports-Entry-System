@@ -925,7 +925,7 @@ cout << "\n 8>> HIGH JUMP";
 cout << "\n 9>> SHOT PUT THROW";
 cout << "\n 10>> DISCUSS THROW";
 cout << "\n 0>> NO EVENT";
-cout<<"\n\nCHOOSE YOUR ITEMS WITHOUT ANY MISATKES (0-10)";
+cout<<"\n\nCHOOSE YOUR ITEMS WITHOUT ANY MISTAKES (0-10)";
 cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!! ]\n";
 
 
@@ -953,171 +953,71 @@ for (int i = 1; i <= 4; i+4)
 switch (choice)
 {
 	case 0:
-		outfile.
-		cout <<
+		cout <<"\n NO EVENT";
 		break;
 	case 1:
-	outfile
-	outfile.
-	break;
+		outfile.open("f_16_100.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
 	case 2:
-	outfile.
-	outfile
-	outfile.
-	break;
+		outfile.open("f_16_200.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
 	case 3:
-	outfile.
-	outfile
-	outfile.
-	break;
+		outfile.open("f_16_400.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
 	case 4:
-	outfile.
-	outfile
-
-"\n NO EVENT";
-
-open("f_16_100.
-<< chest_no <<
-close();
-
-open("f_16_200.
-<< chest_no <<
-close();
-
-open("f_16_400.
-<< chest_no <<
-close();
-
-open("f_16_800.
-<< chest_no <<
-
-"\n CHOOSE YOUR ITEMS WISELY WITHOUT ANY
-
-csv", ios_base:app) ;
-
-; << "\n"s
-
-csv", ios_base:
-
-ys <e "\n"s
-
-csv", ios_base:
-
-; << "\n"s
-
-csv", jos_base:
-
-mom ee "Nn":
-
-"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
-
-rapp);
-
-
-
-:app);
-
-app) ;
-ios_base:
-
-ios_base:
-
-jos_base:
-
-ios_base:
-
-jos_base:
-
-:app) ;
-
-app) ;
-
-:app);
-
-app);
-
-> app) ;
-
+		outfile.open("f_16_800.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 5:
+		outfile.open("f_16_800walk.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 6:
+		outfile.open("f_16_1500.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 7:
+		outfile.open("f_16_longjump.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 8:
+		outfile.open("f_16_highjump.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 9:
+		outfile.open("f_16_shotput.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 10:
+		outfile.open("f_16_discuss.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	default:
+		cout<<"INVALID";
+		break;
 }
-
 }
-
-case
-
-case
-
-outfile.close();
-break;
-
-5:
-
-outfile.open("f_16_800walk.csv",
-
-outfile << chest_no << "J" << "\n":
-outfile.close();
-
-break;
-
-case 6:
-
-outfile.open("f_16_1500.csv", ios_base
-outfile << chest_no << "\" e¢ "\n's
-outfile.close();
-
->: app);
-
-break;
-Case 7:
-
-outfile.
-
-outfile << chest_no << “in
-outfile.close();
-
-open("f_16_longjump.csv",
-
-<< "\n":
-
-break;
-case 8:
-
-outfile.open("f_16_highjump.csv",
-
-outfile << chest_no << "," << "\n";
-outfile.close();
-
-break;
-
-case 9:
-
-outfile.open("f_16_shotput.csv"
-
-outfile << chest_no << "," << "\n"s
-outfile.close();
-break;
-
-10:
-outfile.open("f_16_discuss.csv"
-
-outfile << chest_no << "," << "\n";
-outfile.close();
-
-break;
-
-default:
-
-cout
-
-<< "INVALID";
-
-break;
+}
 
 else if (array[i][8] == "2001" || array[i][8] == "2002")
 
 {
 
-ofstream outfile; ,
-"\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
+ofstream outfile;
+cout << "\nYOUR UNDER_19 ITEMS ARE GIVEN BELOW:- \n";
 
 cout << "\n 1>> 100 Mtr RACE";
 cout << "\n 2>> 200 Mtr RACE";
@@ -1131,16 +1031,14 @@ cout<< "\n 9>> SHOT PUT";
 cout<< "\n 10>> DISCUSS THROW";
 cout<< "\n 11>> JAVELIN THROW";
 cout<< "\n 0>> NO EVENT";
+cout<<"\n\nCHOOSE YOUR ITEMS WITHOUT ANY MISTAKES (0-10)";
 cout<< "\n MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! J\n";
-MISATKES (0-11)";
-
-//cout<<
-
+	
 for (int i = 1; i <= 4; i++)
 
 {
 
-	if G == 1)
+	if (i == 1)
 	{
 		cout << "\n Ist ENTRY:";
 		cin >> choice;
@@ -1163,123 +1061,66 @@ for (int i = 1; i <= 4; i++)
 
 	{
 		case 0:
-			cout << "\n NO EVENT";
-			break;
-		case 1:
-			outfile.
-			outfile
-			outfile.
-			break;
-		case 2:
-			outfile.
-			outfile
-			outfile.
-			break;
-		case 3:
-			outfile.
-			outfile
-			outfile.
-			break;
-		case 4:
-			outfile.
-			outfile
-			outfile.
-			break;
-		case 5:
-
-
-
-open("f_19_100.
-
-<< chest_no <<
-close();
-
-open("f_19_200.
-
-<< chest_no <<
-closeQ);
-
-open("f_19_400.
-
-<< chest_no <<
-close(Q);
-
-open("f_19_800.
-
-<< chest_no <<
-close();
-
-"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY
-
-; << "\n";
-
-wow
-
-; << "\n";
-
-; << "\n";
-
-; << "\n";
-
-csv", ios_base:
-
-csv", ios_base:
-
-csv", jos_base:
-
-csv", ios_base:
-
-"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN
-
-app);
-
-:app);
-
-:app);
-
-:app);
-i outfile.open("f. _csv",
-
-ios_base: : app) ; pen("f_19_800walk.csv
-outfile << chest_no << "," << "\n";
-outfile.close();
-break;
-
-case 6:
-
-outfile.open("f_19_1500.csv", ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close();
-break;
-case 7:
-outfile.open("f_19_longjump.csv”, ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close(Q);
-break;
-case 8:
-outfile.open("f_19_highjump.csv”, ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close();
-break;
-case 9:
-outfile.open("f_19_shotput.csv", ios_base::app) ;
-outfile << chest_no << "," << "\n";
-outfile.closeQ;
-break;
-case 10:
-outfile.open("f_19_discuss.csv", ios_base::app);
-outfile << chest_no << "," << "\n";
-outfile.close();
-break;
-case 11:
-outfile.open("f_19_javelin.csv”, ios_base::app);
-
-outfile << chest_no << "," << "\n";
-outfile.closeQ;
-break;
-default:
-cout << "INVALID";
-break;
+		cout <<"\n NO EVENT";
+		break;
+	case 1:
+		outfile.open("f_19_100.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 2:
+		outfile.open("f_19_200.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 3:
+		outfile.open("f_19_400.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 4:
+		outfile.open("f_19_800.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 5:
+		outfile.open("f_19_800walk.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 6:
+		outfile.open("f_19_1500.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 7:
+		outfile.open("f_19_longjump.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 8:
+		outfile.open("f_19_highjump.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 9:
+		outfile.open("f_19_shotput.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 10:
+		outfile.open("f_19_discuss.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	case 11:
+		outfile.open("f_19_javelin.csv", ios_base:app);
+		outfile<< chest_no<<","<<"\n";
+		outfile.close();
+		break;
+	default:
+		cout<<"INVALID";
+		break;
 }
 }
 }
@@ -1296,6 +1137,8 @@ cout << "PLEASE NOTE DOWN THE STUDENT'S NAME AND CONTACT WITH THE ADMINS TO CONT
 system("pause”);
 
 Sleep(1000) ;
+}
+}
 else
 
 {
