@@ -312,7 +312,7 @@ void user::stu_registration(int) //function that enables the user to perform the
                         switch (choice)
                         {
                             case 0:
-                                cout << "\n NO EVENT";
+                                cout << "\n No event";
                                 break;
                             case 1:
                                 outfile.open("m_12_100.csv", jos_base: :app);
@@ -745,21 +745,21 @@ for (int i = 1; i <= 4; i++)
 			break;
 
 	}
-else if (array[i][8] == "2007" || array[i][8] == "2006")
-{
+	else if (array[i][8] == "2007" || array[i][8] == "2006")
+	{
 
-ofstream outfile;
+	ofstream outfile;
 
-cout<<"\n\nYOUR UNDER_14 ITEMS ARE GIVEN BELOW:- \n";
-cout<<"\n 1>> 100 Mtr RACE";
-cout<<"\n 2>> 200 Mtr RACE";;
-cout<<"\n 3>> 400 Mtr RACE";
-cout<<"\n 4>> 800 Mtr RACE";
-cout<<"\n 5>> LONG JUMP";
-cout<<"\n 6>> HIGH JUMP";
-cout<<"\n O>> NO EVENT";
-cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-6)";
-cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n"; .
+	cout<<"\n\nYOUR UNDER_14 ITEMS ARE GIVEN BELOW:- \n";
+	cout<<"\n 1>> 100 Mtr RACE";
+	cout<<"\n 2>> 200 Mtr RACE";;
+	cout<<"\n 3>> 400 Mtr RACE";
+	cout<<"\n 4>> 800 Mtr RACE";
+	cout<<"\n 5>> LONG JUMP";
+	cout<<"\n 6>> HIGH JUMP";
+	cout<<"\n O>> NO EVENT";
+	cout<<"\n\nCHOOSE YOUR ITEMS WISELY WITHOUT ANY MISATKES (0-6)";
+	cout<<"\n[ NOTE:- AN ATHLETE CAN ONLY PARTICIPATE IN MAXIMUM 4 INDIVIDUAL EVENTS ONLY!!! ]\n"; .
 
 for (int i = 1; i <= 4; i++)
 
