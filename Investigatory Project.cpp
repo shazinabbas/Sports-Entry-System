@@ -384,7 +384,7 @@ void user::stu_registration(int) //function that enables the user to perform the
                     switch (choice)
                     {
                         case 0: 
-                            cout<< "\n No EVENT:- ";
+                            cout<< "\n No event:- ";
                             break;    
                         case 1:
                             outfile.open("m_14_100.csv, ios_base::app");
@@ -1006,7 +1006,7 @@ for (int i = 1; i <= 4; i++)
 		cin >> choice;
 	else
 	{
-		cout << "\n 4th Entry:";
+		cout << "\n 4th ENTRY:";
 		cin >> choice;
 	}
 	switch (choice)
