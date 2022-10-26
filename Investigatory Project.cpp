@@ -46,7 +46,7 @@ void user::class_display() //using scope resolution operator to define the funct
 
         Sleep(10) ;
 
-        cout << "\n\n\n\t\t\t\tPLEASE ENTER YOUR CLASS AND DIVISION USING THE CHOICES GIVEN BELOW\n";
+        cout << "\nPLEASE ENTER YOUR CLASS AND DIVISION USING THE CHOICES GIVEN BELOW\n";
         Sleep(10);
         cout << "\t\t\t\t 1 >> 5A \t\t 13 >> 8A \n";
         Sleep(10);
@@ -416,7 +416,7 @@ void user::stu_registration(int) //function that enables the user to perform the
                             outfile.close();
                             break;
                         default:
-                            out << "INVALID";
+                            out << "Invalid";
                             break;
                     }
                 }
@@ -462,7 +462,7 @@ void user::stu_registration(int) //function that enables the user to perform the
                 else
 
                 {
-			cout << "\n 4th Entry:" ;
+			cout << "\n 4th ENTRY:" ;
             		cin >> choice;
 
             switch (choice)
