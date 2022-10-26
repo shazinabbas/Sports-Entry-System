@@ -160,12 +160,11 @@ void user::stu_registration(int) //function that enables the user to perform the
         }
         myfile.close();
         Sleep(100) ; 
-        cout << "\nENTER '1' TO PROCEED TO REGISTRATION PAGE \n";
+        cout << "\nENTER 1 TO PROCEED TO REGISTRATION PAGE \n";
         Sleep(10);
-        cout << "ENTER '2' TO GO BACK TO PREVIOUS PAGE\n";
+        cout << "ENTER 2 TO GO BACK TO PREVIOUS PAGE\n";
         Sleep(10);
-        cout << "ENTER '0' TO CLOSE THE APPLICATION\n";
-        Sleep(10);
+        cout << "ENTER 0 TO CLOSE THE APPLICATION\n";
         cin >> choice;
         if (choice == 0)
         {
