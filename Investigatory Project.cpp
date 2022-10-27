@@ -95,11 +95,11 @@ void user::class_display() //using scope resolution operator to define the funct
         }
         else if (div_choice == 0)
         {
-            u.user_menu() ;
+            u.user_menu()
         }
         else
         {
-            stu_registration(div_choice) ;
+            stu_registration(div_choice)
         }
     }
 void user::stu_registration(int) //function that enables the user to perform the registration of the sports events.
